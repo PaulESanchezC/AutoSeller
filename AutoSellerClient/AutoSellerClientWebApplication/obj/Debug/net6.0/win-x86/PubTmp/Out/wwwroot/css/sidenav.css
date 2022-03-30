@@ -1,0 +1,110 @@
+﻿.menu-icon {
+    position: fixed;
+    display: flex;
+    top: 5px;
+    left: 25px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #DADAE3;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.sidenav {
+    position: fixed;
+    grid-area: sidenav;
+    flex-direction: column;
+    height: 100vh;
+    width: 240px;
+    transform: translateX(-245px);
+    transition: all .6s ease-in-out;
+    z-index: 2;
+    background-color: #394263;
+}
+
+    .sidenav.active {
+        transform: translateX(0);
+    }
+
+.sidenav__close-icon {
+    position: absolute;
+    visibility: visible;
+    top: 8px;
+    right: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ddd;
+}
+
+.sidenav__list {
+    padding: 0;
+    margin-top: 85px;
+    list-style-type: none;
+}
+
+.sidenav__list-item {
+    padding: 20px 20px 20px 40px;
+    color: #ddd;
+}
+.signature {
+    position: absolute;
+    width: 100%;
+    bottom: 200px;
+    list-style: none;
+}
+
+
+.sidenav__list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.tutorial ,.quick-login {
+    background-color: rgba(250,127,8,0.8)
+}
+    .tutorial:hover {
+        background-color: rgba(250,127,8,0.3)
+    }
+    .quick-login:hover {
+        background-color: rgba(250,127,8,0.3)
+    }
+
+.user-welcome {
+        position: absolute;
+        bottom: 0;
+        width: 240px;
+        height: 67px;
+        font-size: 15px;
+        list-style: none;
+        color: #FA7F08
+    }
+
+@media only screen and (min-width: 750px) {
+    .sidenav {
+        position: fixed;
+        transform: translateX(0);
+    }
+
+    .sidenav__close-icon {
+        visibility: hidden;
+    }
+
+    .main {
+        overflow: initial;
+    }
+
+    .user-welcome {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        font-size: 14px;
+        list-style: none;
+        
+    }
+}
+
+

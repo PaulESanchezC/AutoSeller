@@ -1,0 +1,33 @@
+﻿@model List<Images>
+
+
+<div class="row">
+    @foreach (var image in Model)
+    {
+        <div class="image-box col-xl-3 col-lg-4 col-md-6 col-sm-12" id="@image.ImageId">
+            @{
+                var base64 = Convert.ToBase64String(image.ImageBytes!);
+                var imgSrc = string.Format($"data:image/png;base64,{base64}");
+                <img src="@imgSrc" width="100%" class="image-update" />
+                //Delete
+                <div class="image-update-box-delete-button" data-target="@image.ImageId" 
+                     onclick="deleteImage(this)" tabindex="0" onkeydown="onEnter(this,event)">
+                    <i class="fa-regular fa-trash-can fa-lg btn-close-white"></i>
+                </div>
+
+                //Move Left
+                <div class="image-move-left-button" data-target="@image.ImageId" data-vehicle="@image.ListedVehicleId"
+                     data-index="@image.ImageIndex" onclick="imageMove(this, -1)" 
+                     tabindex="0" onkeydown="onEnter(this,event)">
+                    <i class="image-move-icon fa-solid fa-angle-left fa-2x"></i>
+                </div>
+                //Move Right
+                <div class="image-move-right-button" data-target="@image.ImageId" data-vehicle="@image.ListedVehicleId"
+                     data-index="@image.ImageIndex" onclick="imageMove(this,1)" 
+                     tabindex="0" onkeydown="onEnter(this,event)">
+                    <i class="image-move-icon fa-solid fa-angle-right fa-2x"></i>
+                </div>
+            }
+        </div>
+    }
+</div>

@@ -1,0 +1,108 @@
+﻿@model ProfileVm
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-12 page-title">
+            <span class="display-4">Profile</span>
+        </div>
+
+        <br /><hr /><br />
+
+        <div class="col-lg-6 col-12 profile-form">
+
+            <form method="post" asp-controller="User" asp-action="UpdateProfile">
+                <input asp-for="ApplicationUser.Id" value="@Model.ApplicationUser.Id" name="Id" type="text" hidden="" />
+                <input asp-for="ApplicationUser.Email" value="@Model.ApplicationUser.Email" name="Email" type="text" hidden="" />
+                <input asp-for="ApplicationUser.Token" value="none" name="Token" type="text" hidden="" />
+                <input asp-for="ApplicationUser.Roles" value="none" name="Roles" type="text" hidden="" />
+                @*First Name*@
+                <div class="row profile-form-group">
+                    <div class="col-lg-4 col-12">
+                        <label asp-for="ApplicationUser.FirstName" class="normal-label text-bright-highlighter"></label>
+                    </div>
+                    <div class="col-lg-4 m-auto col-12">
+                        <input asp-for="ApplicationUser.FirstName" type="text" value="@Model.ApplicationUser.FirstName" name="FirstName" 
+                               class="normal-input" autofocus/>
+                        <span asp-validation-for="ApplicationUser.FirstName" class="text-danger"></span>
+                    </div>
+                </div>
+                @*Last Name*@
+                <div class="row profile-form-group">
+                    <div class="col-lg-4 col-12">
+                        <label asp-for="ApplicationUser.LastName" class="normal-label text-bright-highlighter"></label>
+                    </div>
+                    <div class="col-lg-4 m-auto col-12">
+                        <input asp-for="ApplicationUser.LastName" type="text" value="@Model.ApplicationUser.LastName" name="LastName" class="normal-input" />
+                        <span asp-validation-for="ApplicationUser.LastName" class="text-danger"></span>
+                    </div>
+                </div>
+                @*Phone number*@
+                <div class="row profile-form-group">
+                    <div class="col-lg-4 col-12">
+                        <label asp-for="ApplicationUser.PhoneNumber" class="normal-label text-bright-highlighter"></label>
+                    </div>
+                    <div class="col-lg-4 m-auto col-12">
+                        <input asp-for="ApplicationUser.PhoneNumber" type="text" value="@Model.ApplicationUser.PhoneNumber" name="PhoneNumber" class="normal-input" />
+                        <span asp-validation-for="ApplicationUser.PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                @*Address*@
+                <div class="row profile-form-group">
+                    <div class="col-lg-4 col-12">
+                        <label asp-for="ApplicationUser.Address" class="normal-label text-bright-highlighter"></label>
+                    </div>
+                    <div class="col-lg-4 m-auto col-12">
+                        <input asp-for="ApplicationUser.Address" type="text" value="@Model.ApplicationUser.Address" name="Address" class="normal-input" />
+                        <span asp-validation-for="ApplicationUser.Address" class="text-danger"></span>
+                    </div>
+                </div>
+                @*City*@
+                <div class="row profile-form-group">
+                    <div class="col-lg-4 col-12">
+                        <label asp-for="ApplicationUser.City" class="normal-label text-bright-highlighter"></label>
+                    </div>
+                    <div class="col-lg-4 m-auto col-12">
+                        <input asp-for="ApplicationUser.City" type="text" value="@Model.ApplicationUser.City" name="City" class="normal-input" />
+                        <span asp-validation-for="ApplicationUser.City" class="text-danger"></span>
+                    </div>
+                </div>
+                @*State or Province*@
+                <div class="row profile-form-group">
+                    <div class="col-lg-4 col-12">
+                        <label asp-for="ApplicationUser.StateOrProvince" class="normal-label text-bright-highlighter"></label>
+                    </div>
+                    <div class="col-lg-4 m-auto col-12">
+                        <input asp-for="ApplicationUser.StateOrProvince" type="text" value="@Model.ApplicationUser.StateOrProvince" name="StateOrProvince" class="normal-input" />
+                        <span asp-validation-for="ApplicationUser.StateOrProvince" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button class="normal-button profile-sumbit-button" type="submit">
+                        Save
+                    </button>
+                </div>
+                <br />
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+@*Set login password*@
+<div class="col-lg-6 col-12 set-password-form">
+    <partial name="_SetLoginPassword" model="Model.SetLoginPasswordVm" />
+</div>
+
+@section Scripts {
+    @*From: /User/Profile:Get  : /User/UpdateProfile:Post :: /User/SetUserLoginPassword:Post*@
+    @if (TempData["Swal"] is not null && (bool)TempData["Swal"]){
+        <script type="text/javascript">
+            sweetAlert('@TempData["Type"]','@TempData["Title"]','@TempData["Message"]');
+        </script>
+    }
+
+    <partial name="_ValidationScriptsPartial" />
+}

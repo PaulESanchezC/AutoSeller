@@ -1,0 +1,127 @@
+.options-page-title {
+    width: 100%;
+    padding: 12px;
+    color: #11a8ab;
+    text-align: center;
+}
+
+/*Index: Vehicle Details*/
+.contact-seller-button {
+    width: 160px;
+    height: 60px;
+    margin-bottom: 50px;
+    display: inline-block;
+    color: #A67458;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #7AB8BF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+    .contact-seller-button:hover {
+        background-color: rgba(243,243,243,1);
+        font-weight: bold;
+        box-shadow: -5px 5px #02515f;
+        transition: .3s;
+    }
+
+    .contact-seller-button:focus {
+        background-color: rgba(243,243,243,1);
+        font-weight: bold;
+        box-shadow: -5px 5px #02515f;
+        transition: .3s;
+    }
+
+/*Sweet Alert*/
+.swal-bg {
+    background-color: rgba(64, 64, 64, 0.4);
+}
+
+.swal-cancel-button {
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: transparent;
+    color: rgba(209,26,42,0.5);
+}
+
+    .swal-cancel-button:hover {
+        border: 1px solid rgba(209,26,42,1);
+        border-radius: 15px;
+    }
+
+    .swal-cancel-button:focus {
+        outline: none
+    }
+
+.swal-confirm-button {
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid;
+    cursor: pointer;
+    border: 1px solid rgba(3,166,120,.5);
+    border-radius: 25px;
+    color: #03A678;
+    background-color: transparent;
+}
+
+    .swal-confirm-button:hover {
+        border: 1px solid #03A678;
+        color: #03A678;
+        border-radius: 15px;
+    }
+
+    .swal-confirm-button:focus {
+        outline: none
+    }
+
+/*Reset Password*/
+.reset-password-form {
+    padding: 15px;
+    margin: 5px;
+}
+
+.reset-password-form-group {
+    margin: 15px;
+}
+
+.reset-password-button {
+    left: 50px;
+    margin: 25px;
+    width: 100px;
+}
+
+/*Forgot Password*/
+
+
+.forgot-password-form {
+    padding: 15px;
+}
+
+.forgot-password-button {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.forgot-password-label {
+    padding-top: 5px;
+}
+
+.forgot-password-input {
+    width: 420px;
+}
+
+@media screen and (max-width: 468px) {
+    .options-page-title {
+        margin-top: 40px
+    }
+
+    .forgot-password-input {
+        width: 100%;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="TutorialServices\" />
+    <Folder Include="RepositoryServices\IntentsRepository\" />
+    <Folder Include="RepositoryServices\ImageRepository\" />
+    <Folder Include="RepositoryServices\UserPagesRepository\" />
+    <Folder Include="StaticData\JwtBearerTokens\" />
+    <Folder Include="RepositoryServices\CrudRepository\" />
+    <Folder Include="RepositoryServices\MakersRepository\" />
+    <Folder Include="RepositoryServices\ListedVehiclesRepository\" />
+    <Folder Include="RepositoryServices\AplicationUsesrRepository\" />
+    <Folder Include="RepositoryServices\VehiclesRepository\" />
+    <Folder Include="StaticData\Roles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Mailjet.Api" Version="2.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+
+</Project>

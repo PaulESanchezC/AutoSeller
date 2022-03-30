@@ -1,0 +1,1 @@
+This is a tutorial vehicle, created to demonstrate the functionalities of this web application.

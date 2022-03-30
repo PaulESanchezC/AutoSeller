@@ -1,0 +1,40 @@
+.registration-form {
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+.register-div {
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    top: 120px;
+}
+
+.register-button {
+    width: 120px;
+    height: 60px;
+    margin-bottom: 50px;
+    display: inline-block;
+    color: #A67458;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #7AB8BF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.register-button:hover {
+    box-shadow: 5px 5px #02515f;
+    transition: .3s;
+}
+
+.register-button:focus {
+    outline: none;
+    box-shadow: 5px 5px #02515f;
+    transition: .3s;
+}
+
+.register-input {
+    float: right;
+}

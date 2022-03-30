@@ -1,0 +1,79 @@
+﻿@model ListedVehicle
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="container pt-4">
+            <div class="card border">
+
+                <div class="card-header">
+                    <div class="col-12 col-md-6">
+                        <h3 class="text-dark-highlighter">@Model.Year, @Model.Vehicle.Maker.MakerName @Model.Vehicle.VehicleName</h3>
+                        <h2 class="text-dark-highlighter">CA$ @string.Format("{0:##,###,###}",Model.Price)</h2>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="container rounded p-2">
+                        <div class="row">
+
+                            <div class="col-12 col-lg-6 mt-lg-5">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 style="color: #bbb9b9">Vehicle details: </h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <ul>
+                                            <li><span class="text-bright-highlighter">Mileage:</span>  &nbsp;<strong>@string.Format("{0:##,###,###}",Model.Mileage)/Kms </strong> </li>
+                                            <li><span class="text-bright-highlighter">Drive Train:</span>  &nbsp; <strong>@Model.DriveTrain</strong></li>
+                                            <li><span class="text-bright-highlighter">Transmission:</span> &nbsp; <strong>@Model.Transmission</strong> </li>
+                                            <li><span class="text-bright-highlighter">Color:</span> &nbsp; <strong>@Model.Color</strong> </li>
+                                            <li><span class="text-bright-highlighter">Date listed:</span> &nbsp; <strong>@Model.DateListed.ToShortDateString()</strong> </li>
+                                            <li>
+                                                <span class="text-bright-highlighter">Description:</span>
+                                                <div class="vehicle-description">
+                                                    <p> @Model.Description</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6 text-center">
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        @if (Model.Images.Count > 0)
+                                        {
+                                            @foreach (var image in Model.Images)
+                                            {
+                                                var base64 = "";
+                                                var imgSrc = "";
+                                                base64 = Convert.ToBase64String(image.ImageBytes);
+                                                imgSrc = string.Format("data:image/jpg;base64,{0}", base64);
+
+                                                <div class="@(image.ImageIndex == 0 ? "active" : "") carousel-item">
+                                                    <img src="@imgSrc" width="100%" alt="Images of the vehicle being sold." />
+                                                </div>
+
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

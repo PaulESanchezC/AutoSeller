@@ -1,0 +1,135 @@
+﻿@model ApplicationUserRegisterVm
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-12 page-title">
+            <span class="display-4">Register</span>
+        </div>
+
+        <div class="page">
+
+            <div class="fb-div" id="RegisterFB">
+                <div class="fb-login-button"
+                     data-width="325px" data-size="large"
+                     data-button-type="continue_with"
+                     data-layout="rounded" data-auto-logout-link="true"
+                     data-use-continue-as="false" scope="public_profile,email"
+                     onlogin="checkLoginStateRegister();"></div>
+            </div>
+
+            <div class="col-12">
+                <br />
+                <h5 class="text-dark-highlighter ">Registration Form</h5>
+            </div>
+            <br />
+
+            <div class="col-lg-10 col-sm-12 registration-form">
+                <form asp-controller="Register" asp-action="UserRegistrationForm" method="post" id="userRegistrationForm">
+                    @*AccessToken*@
+                    <input asp-for="ExternalLogin" id="externalLogin" type="text" value="local" hidden="" />
+                    <input asp-for="AccessToken" id="accessToken" type="text" value="none" hidden="" />
+
+                    @*First Name*@
+                    <div class="row mt-2">
+                        <div class="col-md-3 col-sm-12">
+                            <label asp-for="FirstName" class="normal-label text-bright-highlighter"></label>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <input autofocus type="text" asp-for="FirstName" class="normal-input register-input w-100" />
+                        </div>
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    @*Last Name*@
+                    <div class="row mt-2">
+                        <div class="col-md-3 col-sm-12">
+                            <label asp-for="LastName" class="normal-label text-bright-highlighter"></label>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <input type="text" asp-for="LastName" class="normal-input register-input w-100" />
+                        </div>
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                    @*Phone Number*@
+                    <div class="row mt-2">
+                        <div class="col-md-3 col-sm-12">
+                            <label asp-for="PhoneNumber" class="normal-label text-bright-highlighter"></label>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <input type="text" asp-for="PhoneNumber" class="normal-input register-input w-100" />
+                        </div>
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                    @*Address*@
+                    <div class="row mt-2">
+                        <div class="col-md-3 col-sm-12">
+                            <label asp-for="Address" class="normal-label text-bright-highlighter"></label>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <input type="text" asp-for="Address" class="normal-input register-input w-100" />
+                        </div>
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                    @*City*@
+                    <div class="row mt-2">
+                        <div class="col-md-3 col-sm-12">
+                            <label asp-for="City" class="normal-label text-bright-highlighter"></label>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <input type="text" asp-for="City" class="normal-input register-input w-100" />
+                        </div>
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+                    @*State or Province*@
+                    <div class="row mt-2">
+                        <div class="col-md-3 col-sm-12">
+                            <label asp-for="StateOrProvince" class="normal-label text-bright-highlighter"></label>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <input type="text" asp-for="StateOrProvince" class="normal-input register-input w-100" />
+                        </div>
+                        <span asp-validation-for="StateOrProvince" class="text-danger"></span>
+                    </div>
+                    <hr class="text-dark-highlighter" />
+                    @*Username*@
+                    <div class="row mt-2">
+                        <div class="col-md-3 col-sm-12">
+                            <label asp-for="Username" class="normal-label text-bright-highlighter"></label>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <input type="email" asp-for="Username" class="normal-input register-input w-100" />
+                        </div>
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+                    @*Password*@
+                    <div class="row mt-2">
+                        <div class="col-md-3 col-sm-12">
+                            <label asp-for="Password" class="normal-label text-bright-highlighter"></label>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <input type="password" asp-for="Password" class="normal-input register-input w-100" />
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    @*Confirm Password*@
+                    <div class="row mt-2">
+                        <div class="col-md-3 col-sm-12">
+                            <label asp-for="ConfirmPaswword" class="normal-label text-bright-highlighter"></label>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <input asp-for="ConfirmPaswword" type="password" class="normal-input register-input w-100" />
+                        </div>
+                        <span asp-validation-for="ConfirmPaswword" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 text-center mt-5">
+                        <button class="normal-button register-button" type="submit"> Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}

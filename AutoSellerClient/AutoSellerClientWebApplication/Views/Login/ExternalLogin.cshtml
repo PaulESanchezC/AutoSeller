@@ -1,0 +1,85 @@
+﻿@model ExternalLoginVm
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 options-page-title">
+            <span class="display-4">External Login</span>
+        </div>
+    </div>
+
+    <div class="col-lg-10 col-sm-12">
+        <form method="post" asp-controller="Login" asp-action="FacebookLogin">
+            @*Access Token*@
+            <input asp-for="AccessToken" type="text" value="@Model.AccessToken" hidden=""/>
+            @*Login Provider*@
+            <input asp-for="LoginProvider" type="text" value="@Model.LoginProvider" hidden=""/>
+            @*First Name*@
+            <div class="row mt-2">
+                <div class="col-md-3 col-sm-12">
+                    <label asp-for="FacebookRegistrationVm.FirstName" class="normal-label text-bright-highlighter"></label>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <input asp-for="FacebookRegistrationVm.FirstName" type="text" class="normal-input register-input w-100" autofocus/>
+                </div>
+                <span asp-validation-for="FacebookRegistrationVm.FirstName" class="text-danger"></span>
+            </div>
+            @*Last Name*@
+            <div class="row mt-2">
+                <div class="col-md-3 col-sm-12">
+                    <label asp-for="FacebookRegistrationVm.LastName" class="normal-label text-bright-highlighter"></label>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <input asp-for="FacebookRegistrationVm.LastName" type="text" class="normal-input register-input w-100"/>
+                </div>
+                <span asp-validation-for="FacebookRegistrationVm.LastName" class="text-danger"></span>
+            </div>
+            @*Phone number*@
+            <div class="row mt-2">
+                <div class="col-md-3 col-sm-12">
+                    <label asp-for="FacebookRegistrationVm.PhoneNumber" class="normal-label text-bright-highlighter"></label>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <input asp-for="FacebookRegistrationVm.PhoneNumber" type="text" class="normal-input register-input w-100"/>
+                </div>
+                <span asp-validation-for="FacebookRegistrationVm.PhoneNumber" class="text-danger"></span>
+            </div>
+            @*Address*@
+            <div class="row mt-2">
+                <div class="col-md-3 col-sm-12">
+                    <label asp-for="FacebookRegistrationVm.Address" class="normal-label text-bright-highlighter"></label>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <input asp-for="FacebookRegistrationVm.Address" type="text" class="normal-input register-input w-100"/>
+                </div>
+                <span asp-validation-for="FacebookRegistrationVm.Address" class="text-danger"></span>
+            </div>
+            @*City*@
+            <div class="row mt-2">
+                <div class="col-md-3 col-sm-12">
+                    <label asp-for="FacebookRegistrationVm.City" class="normal-label text-bright-highlighter"></label>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <input asp-for="FacebookRegistrationVm.City" type="text" class="normal-input register-input w-100"/>
+                </div>
+                <span asp-validation-for="FacebookRegistrationVm.City" class="text-danger"></span>
+            </div>
+            @*State or Province*@
+            <div class="row mt-2">
+                <div class="col-md-3 col-sm-12">
+                    <label asp-for="FacebookRegistrationVm.StateOrProvince" class="normal-label text-bright-highlighter"></label>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <input asp-for="FacebookRegistrationVm.StateOrProvince" type="text" class="normal-input register-input w-100"/>
+                </div>
+                <span asp-validation-for="FacebookRegistrationVm.StateOrProvince" class="text-danger"></span>
+            </div>
+
+            <div class="col-12 mt-5">
+                <button class="normal-button register-button" type="submit"> Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"/>
+}

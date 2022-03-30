@@ -1,0 +1,57 @@
+﻿@model IndexPageVm
+<div class="container">
+    <div class="row" id="indexPartialView">
+
+        <div class="col-12 text-decoration-underline">
+            <span id="PageMenu" data-page="@Model.CurrentPage" data-total-pages="@Model.TotalPages">
+                <small>
+                    page: @Model.CurrentPage / @Model.TotalPages &nbsp;&nbsp; results: @Model.Count
+                </small>
+            </span>
+        </div>
+
+        <br />
+
+        @if (Model.ListedVehiclesList.Any() || Model.TotalPages > 0)
+        {
+            foreach (var vehicle in Model.ListedVehiclesList)
+            {
+                <div class=" col-xl-3 col-lg-4 col-md-6 col-sm-8 vehicle-div">
+                    @if (vehicle.Images.Count > 0)
+                    {
+                        var base64 = Convert.ToBase64String(vehicle.Images.FirstOrDefault().ImageBytes);
+                        var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+                        <img src="@imgsrc" width="100%" alt="Images of the vehicle being sold." />
+                    }
+                    else
+                    {
+                        <img src="..." width="100%" alt="Images of the vehicle being sold. [if you can see this, it means there are no images for this vehicle]">
+                    }
+                    <div class="card-title mt-2 ms-2">
+                        <h5 class="card-title">@vehicle.Year @vehicle.Vehicle.Maker.MakerName, @vehicle.Vehicle.VehicleName</h5>
+                        <p class="card-text">CA$ <strong>@string.Format("{0:##,###,###}",vehicle.Price)</strong></p>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-text vehicle-text">Mileage: <strong>@string.Format("{0:##,###,###}",vehicle.Mileage)/Kms</strong></span>
+                        <br />
+                        <span class="card-text vehicle-text">Transmission: <strong>@vehicle.Transmission</strong></span>
+                        <br />
+                        <span class="card-text vehicle-text">DriveTrain <strong>@vehicle.DriveTrain</strong></span>
+                        <br />
+                        <div class="col-12 text-center">
+                            <a asp-controller="Home" asp-action="VehicleDetails" asp-route-listedVehicleId="@vehicle.ListedVehicleId"
+                               class="search-result-button">
+                                <button class="normal-button">Details</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-capitalize text-center text-primary"> Loading... please wait!</p>
+        }
+        <br />
+    </div>
+</div>

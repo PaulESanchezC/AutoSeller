@@ -1,0 +1,45 @@
+.login-form {
+    width: 100%;
+    margin: 15px 2px;
+    padding: 5px;
+}
+
+.fb-div {
+    top: 120px;
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+}
+
+.login {
+    padding: 5px 15px
+}
+
+.login-button {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 15px;
+    text-align: center;
+    width: 180px;
+}
+
+.login-input {
+    left: 3%;
+    width: 480px;
+}
+
+.external-login-button {
+    position: relative;
+    margin-left: 15px;
+    height: 200px;
+}
+
+
+/*Media*/
+
+@media only screen and (max-width: 750px) {
+    .login-input {
+        width: 95%;
+        font-size: 16px;
+    }
+}

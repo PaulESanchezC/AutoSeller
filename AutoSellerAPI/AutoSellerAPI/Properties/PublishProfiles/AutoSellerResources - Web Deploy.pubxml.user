@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJWLY3Rby3E6YyApzJGBC5QAAAAACAAAAAAAQZgAAAAEAACAAAADZJ8L9qKACinJ7ysUdO6NBa2H6cU1m0A2VqjvB73o2AAAAAAAOgAAAAAIAACAAAABj7+ZzoIFvQJb/eM81dzZgYKQDvO/FQFOJ+jObSmz1j4AAAADNktPvLy/IuFMczZmXon3vTKw7DoLOS/uHZXZrFBDPyCP+/wTUNLu7LGHR7UmaKeKz+fndf7w89J3RCa7PgK2z0wF7mJQR/NWhZz+HBUzpAzznEWn60gjXmQY3IRMfL1OSP5aOleFBl8JGdGfs42Uh5MMNtISXLuADtBdck2zTq0AAAADw7/gxS/dDx1BZHf+RN1fNRAfoirOoQp+pt/Ei3V8RBFnkamRQXROw6odnqOmcJf8Wkesz6CBwXro7S6g+vUsX</EncryptedPassword>
+    <History>True|2022-03-24T18:11:09.7114233Z;True|2022-03-23T23:02:34.9506559-04:00;False|2022-03-23T22:40:09.8560851-04:00;False|2022-03-23T22:38:37.1382883-04:00;False|2022-03-23T16:42:47.3804951-04:00;True|2022-03-22T14:30:19.4327723-04:00;True|2022-03-22T14:10:14.8743130-04:00;True|2022-03-22T12:36:35.8327433-04:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BaseUrl">
+      <Value>Data Source=tcp:autosellerapidbserver.database.windows.net,1433%3bInitial Catalog=AutoSellerAPI_db%3bUser Id=PaulSanchez%40autosellerapidbserver%3bPassword=19178199Pa</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DevelopmentConnection">
+      <Value>Data Source=tcp:autosellerapidbserver.database.windows.net,1433%3bInitial Catalog=AutoSellerAPI_db%3bUser Id=PaulSanchez%40autosellerapidbserver%3bPassword=19178199Pa</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

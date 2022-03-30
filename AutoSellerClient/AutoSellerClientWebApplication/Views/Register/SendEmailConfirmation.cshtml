@@ -1,0 +1,35 @@
+﻿@model string?
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-12 options-page-title">
+            <span class="display-4">Resend email confirmation</span>
+        </div>
+        <form method="post" asp-controller="Register" asp-action="SendEmailConfirmation">
+            <div class="row mt-3">
+                <div class="col-lg-1 col-12">
+                    <label asp-for="@Model" class="text-bright-highlighter normal-label">Account Email:</label>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <input asp-for="@Model" name="email" type="text" class="normal-input w-100" autofocus />
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="normal-button reset-password-button">Send</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @*From: /Register/EmailConfirmation:Get (re used tokens) *@
+    @*From: /Register/SendEmailConfirmation:Get*@
+    @*From: /Register/SendEmailConfirmation:Post*@
+    @*From: /Register/UserRegistrationForm:Post*@
+    @if (TempData["Swal"] is not null && (bool)TempData["Swal"]){
+<script type="text/javascript">
+    sweetAlert('@TempData["Type"]','@TempData["Title"]','@TempData["Message"]');
+</script>
+    }
+<partial name="_ValidationScriptsPartial" />
+}

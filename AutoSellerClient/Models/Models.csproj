@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="IntentModels\" />
+    <Folder Include="EnumModels\" />
+    <Folder Include="AppSettingsOptionsModels\" />
+    <Folder Include="ApiRouteOptionsModels\" />
+    <Folder Include="PagesViewModels\UserPagesViewModels\" />
+    <Folder Include="ResponseModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,148 @@
+﻿@model UserVehicleDetailsVm
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 vehicle-detailes-page-title">
+            <span class="display-4">Edit: @Model.ListedVehicle.Year @Model.ListedVehicle.Vehicle.Maker.MakerName @Model.ListedVehicle.Vehicle.VehicleName</span>
+        </div>
+
+        @if (Model.Images != null && Model.Images.Count > 0)
+        {
+            <div class="col-12 vehicle-images-container">
+                <partial name="_VehicleImages" model="Model.Images" />
+            </div>
+        }
+
+        <form asp-controller="User" asp-action="UpdateAVehicle" method="post" enctype="multipart/form-data" class="vehicle-details-form"
+              asp-route-l="">
+            <input asp-for="ListedVehicleUpdateVm.ApplicationUserId" name="ApplicationUserId" value="@Model.ListedVehicleUpdateVm.ApplicationUserId" hidden="" />
+            <input asp-for="ListedVehicleUpdateVm.ListedVehicleId" name="ListedVehicleId" value="@Model.ListedVehicleUpdateVm.ListedVehicleId" hidden="" />
+            <input asp-for="ListedVehicleUpdateVm.VehicleId" name="VehicleId" value="@Model.ListedVehicleUpdateVm.VehicleId" hidden="" />
+
+            <div class="col-12">
+                <h4 class="icon">Vehicle details</h4>
+            </div>
+
+            @*Price*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="ListedVehicleUpdateVm.Price" class="normal-label register-vehicle-label text-dark-highlighter"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <input asp-for="ListedVehicleUpdateVm.Price" name="Price" type="number" min="1000" step="100" 
+                           class="normal-input register-vehicle-input" autofocus/>
+                    <span asp-validation-for="ListedVehicleUpdateVm.Price" class="text-danger"></span>
+                </div>
+            </div>
+            @*Year*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="ListedVehicleUpdateVm.Year" class="normal-label register-vehicle-label text-dark-highlighter"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <input asp-for="ListedVehicleUpdateVm.Year" name="Year" type="number" min="1980" class="normal-input register-vehicle-input" />
+                    <span asp-validation-for="ListedVehicleUpdateVm.Year" class="text-danger"></span>
+                </div>
+            </div>
+            @*Transmission*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="ListedVehicleUpdateVm.Transmission" class="normal-label register-vehicle-label text-dark-highlighter"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <select asp-for="ListedVehicleUpdateVm.Transmission" name="Transmission" class="normal-select register-vehicle-select">
+                        <option selected="" disabled="" value="">--Please Select--</option>
+                        @foreach (var option in Transmissions.TransmissionList)
+                        {
+                            <option value="@option">@option</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ListedVehicleUpdateVm.Transmission" class="text-danger"></span>
+                </div>
+            </div>
+            @*Mileage*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="ListedVehicleUpdateVm.Mileage" class="normal-label register-vehicle-label text-dark-highlighter"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <input asp-for="ListedVehicleUpdateVm.Mileage" name="Mileage" type="number" class="normal-select register-vehicle-input" />
+                    <span asp-validation-for="ListedVehicleUpdateVm.Mileage" class="text-danger"></span>
+                </div>
+            </div>
+            @*DriveTrain*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="ListedVehicleUpdateVm.DriveTrain" class="normal-label register-vehicle-label text-dark-highlighter"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <select asp-for="ListedVehicleUpdateVm.DriveTrain" name="DriveTrain" class="normal-select register-vehicle-select">
+                        <option selected="" value="" disabled="">--Please Select--</option>
+                        @foreach (var option in DriveTrains.DriveTrainList)
+                        {
+                            <option value="@option">@option</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ListedVehicleUpdateVm.DriveTrain" class="text-danger"></span>
+                </div>
+            </div>
+            @*Color*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="ListedVehicleUpdateVm.Color" class="normal-label register-vehicle-label text-dark-highlighter"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <select asp-for="ListedVehicleUpdateVm.Color" name="Color" class="normal-select register-vehicle-select">
+                        <option selected="" value="">All</option>
+                        @foreach (var color in Colors.ColorsList)
+                        {
+                            <option value="@color">@color</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ListedVehicleUpdateVm.Color" class="text-danger"></span>
+                </div>
+            </div>
+            @*Description*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="ListedVehicleUpdateVm.Description" class="normal-label register-vehicle-label text-dark-highlighter"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <textarea asp-for="ListedVehicleUpdateVm.Description" name="Description" type="text" class="register-vehicle-textarea"
+                              cols="30" rows="6" maxlength="500"></textarea>
+                    <span asp-validation-for="ListedVehicleUpdateVm.Description" class="text-danger"></span>
+                </div>
+            </div>
+            @*Images*@
+            <div class="row mt-2">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="Images" class="normal-label register-vehicle-label text-dark-highlighter"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <input asp-for="Images" name="files" id="vehicleImages" type="file" multiple="" class="form-control register-vehicle-input" />
+                </div>
+            </div>
+            @*Submit button*@
+            <div class="row">
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <button type="submit" class=" normal-button register-vehicle-button">
+                        Save and Continue
+                    </button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    @if ((bool)TempData["Swal"]){
+        <script type="text/javascript">
+            sweetAlert('@TempData["Type"]','@TempData["Title"]','@TempData["Message"]');
+        </script>
+    }
+<partial name="_ValidationScriptsPartial" />
+}

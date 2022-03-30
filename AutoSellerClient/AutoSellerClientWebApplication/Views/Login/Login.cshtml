@@ -1,0 +1,89 @@
+﻿@model ApplicationUserLoginVm
+@inject IHttpContextAccessor _http
+@if (_http.HttpContext.User.Identity.IsAuthenticated)
+{
+    Context.Response.Redirect("/User/Dashboard");
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 page-title">
+            <span class="display-4">Login</span>
+        </div>
+
+        <div class="page">
+
+            <div class="fb-div" id="loginFB">
+                <div class="fb-login-button"
+                     data-width="280px" data-size="large"
+                     data-button-type="continue_with"
+                     data-layout="rounded" data-auto-logout-link="true"
+                     data-use-continue-as="false" scope="public_profile,email"
+                     onlogin="checkLoginStateLogin()();"></div>
+            </div>
+
+            <div class="login-form">
+                <form method="post" asp-action="Login" asp-controller="Login" id="localLoginForm">
+                    @*AccessToken*@
+                    <input asp-for="ExternalLogin" id="loginExternalLogin" type="text" value="local" hidden="" />
+                    <input asp-for="AccessToken" id="loginAccessToken" type="text" value="none" hidden="" />
+                    @*ReturnUrl*@
+                    <input asp-for="ReturnUrl" type="text" value="@Model.ReturnUrl" hidden="" />
+                    @*Username*@
+                    <div class="row">
+                        <div class="col-12">
+                            <label asp-for="Username" class=" text-bright-highlighter normal-label"></label>
+                        </div>
+                        <div class="col-12">
+                            <input asp-for="Username" type="email" class="normal-input login-input" autofocus />
+                            <br />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                    </div>
+                    @*Password*@
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <label asp-for="Password" class="text-bright-highlighter normal-label"></label>
+                        </div>
+                        <div class="col-12">
+                            <input asp-for="Password" type="password" class="normal-input login-input" />
+                            <br />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="normal-button login-button" tabindex="0" onkeydown="onEnter(this,event)">
+                        <span>Login</span>
+                    </div>
+
+                </form>
+            </div>
+
+            <br />
+            <div class="col-12">
+                <a asp-controller="Login" asp-action="ForgotPassword" class="text-capitalize">Forgot password?</a>
+            </div>
+            <div class="col-12">
+                <a asp-controller="Register" asp-action="SendEmailConfirmation" class="text-capitalize"> Resend email confirmation</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    @*From: /Login/LoginAsync:Post*@
+    @if (TempData["Login"] is not null && (bool)TempData["Login"]){
+<script type="text/javascript">
+    loginSwal('@TempData["Type"]','@TempData["Message"]');
+</script>
+    }
+    @*From: /Login/ResetPasswordAsync:Post*@
+    @if (TempData["Swal"] is not null && (bool)TempData["Swal"]){
+<script type="text/javascript">
+    sweetAlert('@TempData["Type"]','@TempData["Title"]','@TempData["Message"]');
+</script>
+    }
+
+<partial name="_ValidationScriptsPartial" />
+}

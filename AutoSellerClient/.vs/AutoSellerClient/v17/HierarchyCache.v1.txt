@@ -1,0 +1,766 @@
+﻿++Solution 'AutoSellerClient' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:AutoSellerClient.sln
+++Miscellaneous
+i:{00000000-0000-0000-0000-000000000000}:Miscellaneous
+++CopyPaste.txt
+i:{92281f50-2fd6-4995-956d-8e5e035c8ede}:C:\Users\Paulyglot\Desktop\Portoflio\AutoSeller Client\AutoSellerClient\CopyPaste.txt
+++Script Documents
+++sdk.js
+++jquery.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery\dist\jquery.min.js
+++bootstrap.bundle.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++fblogin.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\fblogin.js
+++all.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\all.min.js
+++sidenav.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\sidenav.js
+++_vehicleimages.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\_vehicleimages.js
+++dashboardtopmenu.js
+++sweetalert2@11
+++sweatalerts.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\sweatalerts.js
+++jquery.validate.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++jquery.validate.unobtrusive.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++aspnetcore-browser-refresh.js
+++browserLink
+++Models
+i:{00000000-0000-0000-0000-000000000000}:Models
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\bin\debug\net6.0\models.dll
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\bin\debug\net6.0\models.dll
+++Dependencies
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:>453
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:>454
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:>452
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:>2011
+++ApplicationUserModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\applicationusermodels\
+++AppSettingsOptionsModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\appsettingsoptionsmodels\
+++AuthenticationModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\authenticationmodels\
+++EnumModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\enummodels\
+++ImagesModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\imagesmodels\
+++IntentModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\intentmodels\
+++JsModels
+++SweetAlert.cs
+++ListedVehicleModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\listedvehiclemodels\
+++MakerModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\makermodels\
+++PagesViewModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\
+++ResponseModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\responsemodels\
+++VehicleModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\vehiclemodels\
+++Analyzers
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:analyzers
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:analyzers
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:analyzers
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:analyzers
+++Frameworks
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:frameworks
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:frameworks
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:frameworks
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:frameworks
+++Packages
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:packages
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:packages
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:packages
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:packages
+++ApplicationUser.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\applicationusermodels\applicationuser.cs
+++ApplicationUserLoginVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\applicationusermodels\applicationuserloginvm.cs
+++ApplicationUserRegisterVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\applicationusermodels\applicationuserregistervm.cs
+++MailjetOptions.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\appsettingsoptionsmodels\mailjetoptions.cs
+++ApplicationUserLoginResponse.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\authenticationmodels\applicationuserloginresponse.cs
+++ApplicationUserRegistrationResponse.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\authenticationmodels\applicationuserregistrationresponse.cs
+++EmailConfirmation.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\authenticationmodels\emailconfirmation.cs
+++FacebookLoginResponse.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\authenticationmodels\facebookloginresponse.cs
+++FacebookRegistrationVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\authenticationmodels\facebookregistrationvm.cs
+++SetLoginPasswordVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\authenticationmodels\setloginpasswordvm.cs
+++Colors.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\enummodels\colors.cs
+++DriveTrains.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\enummodels\drivetrains.cs
+++Transmissions.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\enummodels\transmissions.cs
+++Images.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\imagesmodels\images.cs
+++ImagesCreateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\imagesmodels\imagescreatevm.cs
+++ImageUpdateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\imagesmodels\imageupdatevm.cs
+++Intents.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\intentmodels\intents.cs
+++IntentsCreateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\intentmodels\intentscreatevm.cs
+++IntentsUpdateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\intentmodels\intentsupdatevm.cs
+++ListedVehicle.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\listedvehiclemodels\listedvehicle.cs
+++ListedVehicleCreateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\listedvehiclemodels\listedvehiclecreatevm.cs
+++ListedVehicleUpdateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\listedvehiclemodels\listedvehicleupdatevm.cs
+++Makers.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\makermodels\makers.cs
+++MakersCreateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\makermodels\makerscreatevm.cs
+++MakersUpdateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\makermodels\makersupdatevm.cs
+++UserPagesViewModels
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\userpagesviewmodels\
+++EmailConfirmationPageVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\emailconfirmationpagevm.cs
+++ExternalLoginVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\externalloginvm.cs
+++IndexPageVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\indexpagevm.cs
+++RegisterPageVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\registerpagevm.cs
+++ResetPasswordVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\resetpasswordvm.cs
+++SearchVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\searchvm.cs
+++SendEmailConfirmationVm.cs
+++RegistrationResponse.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\responsemodels\registrationresponse.cs
+++Response.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\responsemodels\response.cs
+++Vehicles.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\vehiclemodels\vehicles.cs
+++VehiclesCreateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\vehiclemodels\vehiclescreatevm.cs
+++VehiclesUpdateVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\vehiclemodels\vehiclesupdatevm.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\microsoft.netcore.app
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\microsoft.netcore.app
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\microsoft.netcore.app
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\microsoft.netcore.app
+++AutoMapper (11.0.1)
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:>2063
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:>2076
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:>2049
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:>2044
+++DashboardVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\userpagesviewmodels\dashboardvm.cs
+++ImagesWithVehicleVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\userpagesviewmodels\imageswithvehiclevm.cs
+++ProfileVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\userpagesviewmodels\profilevm.cs
+++RegisterAVehicleVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\userpagesviewmodels\registeravehiclevm.cs
+++UserVehicleDetailsVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\userpagesviewmodels\uservehicledetailsvm.cs
+++VehiclesListForMaker.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\pagesviewmodels\userpagesviewmodels\vehicleslistformaker.cs
+++Services
+i:{00000000-0000-0000-0000-000000000000}:Services
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\bin\debug\net6.0\services.dll
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\bin\debug\net6.0\services.dll
+++AuthenticationService
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\authenticationservice\
+++EmailServices
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\emailservices\
+++IndexPageVmService
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\indexpagevmservice\
+++RepositoryServices
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\
+++StaticData
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\
+++JwtBearerTokens
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\jwtbearertokens\
+++PolicyAuthorizationNames
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\policyauthorizationnames\
+++Roles
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\roles\
+++Routes
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\routes\
+++ApiRoute.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\routes\apiroute.cs
+++LocalRoute.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\routes\localroute.cs
+++SweetAlertTemplates
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\sweetalerttemplates\
+++SwalFire.cs
+++Projects
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:projects
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:projects
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:projects
+++Templates
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\authenticationservice\templates\
+++AuthenticationServices.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\authenticationservice\authenticationservices.cs
+++IAuthenticationServices.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\authenticationservice\iauthenticationservices.cs
+++EmailTemplates
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\emailservices\emailtemplates\
+++EmailSender.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\emailservices\emailsender.cs
+++IMailjetEmailSender.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\emailservices\imailjetemailsender.cs
+++IIndexPageVmService.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\indexpagevmservice\iindexpagevmservice.cs
+++IndexPageVmService.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\indexpagevmservice\indexpagevmservice.cs
+++AplicationUsesrRepository
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\aplicationusesrrepository\
+++CrudRepository
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\crudrepository\
+++ImageRepository
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\imagerepository\
+++IntentsRepository
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\intentsrepository\
+++ListedVehiclesRepository
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\listedvehiclesrepository\
+++MakersRepository
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\makersrepository\
+++UserPagesRepository
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\userpagesrepository\
+++VehiclesRepository
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\vehiclesrepository\
+++JwtBearerDefaults.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\jwtbearertokens\jwtbearerdefaults.cs
+++PolicyAuth.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\policyauthorizationnames\policyauth.cs
+++RoleTypes.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\roles\roletypes.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.Extensions.Logging.Generators
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Mailjet.Api (2.0.2)
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:>2074
+++Microsoft.AspNetCore.Identity.UI (6.0.2)
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:>2077
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.2)
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:>2075
+++FacebookTemplates.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\authenticationservice\templates\facebooktemplates.cs
+++ApplicationUserRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\aplicationusesrrepository\applicationuserrepository.cs
+++IApplicationUserRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\aplicationusesrrepository\iapplicationuserrepository.cs
+++CrudRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\crudrepository\crudrepository.cs
+++ICrudRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\crudrepository\icrudrepository.cs
+++IImageRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\imagerepository\iimagerepository.cs
+++ImageRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\imagerepository\imagerepository.cs
+++IIntentRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\intentsrepository\iintentrepository.cs
+++IntentsRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\intentsrepository\intentsrepository.cs
+++IListedVehicleRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\listedvehiclesrepository\ilistedvehiclerepository.cs
+++ListedVehicleRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\listedvehiclesrepository\listedvehiclerepository.cs
+++IMakersRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\makersrepository\imakersrepository.cs
+++MakersRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\makersrepository\makersrepository.cs
+++IUserPagesRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\userpagesrepository\iuserpagesrepository.cs
+++UserPagesRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\userpagesrepository\userpagesrepository.cs
+++IVehiclesRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\vehiclesrepository\ivehiclesrepository.cs
+++VehicleRepository.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\repositoryservices\vehiclesrepository\vehiclerepository.cs
+++Configurations
+i:{00000000-0000-0000-0000-000000000000}:Configurations
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\bin\debug\net6.0\configurations.dll
+++AppSettingsOptionsConfigurations
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\appsettingsoptionsconfigurations\
+++AuthenticationConfigurations
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\authenticationconfigurations\
+++AutoMapperConfigurations
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\automapperconfigurations\
+++ConfigurationProxyHelper
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\configurationproxyhelper\
+++JsonConfigurations
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\jsonconfigurations\
+++ServicesConfigurations
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\servicesconfigurations\
+++AppSettingsOptionsConfiguration.cs
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\appsettingsoptionsconfigurations\appsettingsoptionsconfiguration.cs
+++HttpCookieConfigurations.cs
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\authenticationconfigurations\httpcookieconfigurations.cs
+++PolicyAuthentication.cs
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\authenticationconfigurations\policyauthentication.cs
+++SessionConfigurations.cs
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\authenticationconfigurations\sessionconfigurations.cs
+++AddAutoMapperMapConfigurations.cs
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\automapperconfigurations\addautomappermapconfigurations.cs
+++AutoMapperOptionsConfiguration.cs
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\automapperconfigurations\automapperoptionsconfiguration.cs
+++ProxyConfiguration.cs
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\configurationproxyhelper\proxyconfiguration.cs
+++JsonConfiguration.cs
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\jsonconfigurations\jsonconfiguration.cs
+++ServicesConfiguration.cs
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\configurations\servicesconfigurations\servicesconfiguration.cs
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:>2046
+++Microsoft.AspNetCore.Authentication.Facebook (6.0.2)
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:>2047
+++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+i:{fd663a30-6ba6-4f6f-aaf4-f1358b2f1fec}:>2048
+++AutoSellerClientWebApplication
+i:{00000000-0000-0000-0000-000000000000}:AutoSellerClientWebApplication
+++Connected Services 
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:>2012
+++Properties
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\properties\
+++wwwroot
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\
+++css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\
+++dashboardmenu.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\dashboardmenu.css
+++login.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\login.css
+++options.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\options.css
+++profile.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\profile.css
+++registeruser.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\registeruser.css
+++registervehicle.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\registervehicle.css
+++searchmenu.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\searchmenu.css
+++sidenav.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\sidenav.css
+++site.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\site.css
+++uservehicledetails.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\css\uservehicledetails.css
+++js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\
+++_vehiclesSearchResult.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\_vehiclessearchresult.js
+++registerVehicle.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\registervehicle.js
+++SearchMenu.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\searchmenu.js
+++lib
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\
+++favicon.ico
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\favicon.ico
+++Controllers
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\controllers\
+++HomeController.cs
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\controllers\homecontroller.cs
+++ListedVehicleController.cs
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\controllers\listedvehiclecontroller.cs
+++LoginController.cs
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\controllers\logincontroller.cs
+++RegisterController.cs
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\controllers\registercontroller.cs
+++UserController.cs
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\controllers\usercontroller.cs
+++Views
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\
+++Home
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\home\
+++_SerchMenu.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\home\_serchmenu.cshtml
+++_VehiclesSearchResult.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\home\_vehiclessearchresult.cshtml
+++About.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\home\about.cshtml
+++Index.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\home\index.cshtml
+++VehicleDetails.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\home\vehicledetails.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\user\vehicledetails.cshtml
+++Login
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\login\
+++ExternalLogin.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\login\externallogin.cshtml
+++ForgotPassword.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\login\forgotpassword.cshtml
+++Login.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\login\login.cshtml
+++ResetPassword.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\login\resetpassword.cshtml
+++Register
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\register\
+++EmailConfirmation.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\register\emailconfirmation.cshtml
+++Register.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\register\register.cshtml
+++SendEmailConfirmation.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\register\sendemailconfirmation.cshtml
+++Shared
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\shared\
+++_Layout.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\shared\_layout.cshtml
+++_SideNav.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\shared\_sidenav.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\shared\_validationscriptspartial.cshtml
+++User
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\user\
+++_SetLoginPassword.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\user\_setloginpassword.cshtml
+++_UserDashboardTopMenu.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\user\_userdashboardtopmenu.cshtml
+++_VehicleImages.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\user\_vehicleimages.cshtml
+++Dashboard.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\user\dashboard.cshtml
+++Profile.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\user\profile.cshtml
+++RegisterAVehicle.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\user\registeravehicle.cshtml
+++_ViewImports.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\_viewstart.cshtml
+++appsettings.json
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\appsettings.json
+++libman.json
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\libman.json
+++Program.cs
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\program.cs
+++No service dependencies discovered
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:>2013
+++launchSettings.json
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\properties\launchsettings.json
+++bootstrap
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\
+++font-awesome
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\
+++jquery
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery\
+++jquery-validation
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation-unobtrusive\
+++_Layout.cshtml.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\views\shared\_layout.cshtml.css
+++appsettings.Development.json
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\appsettings.development.json
+++MessagePackAnalyzer
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\microsoft.aspnetcore.app
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.2)
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:>2043
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:>2045
+++dist
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery\dist\
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\license
+++sprites
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\sprites\
+++webfonts
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\webfonts\
+++LICENSE.txt
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery\license.txt
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++all.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\all.css
+++brands.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\brands.css
+++fontawesome.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\fontawesome.css
+++regular.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\regular.css
+++solid.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\solid.css
+++svg-with-js.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\svg-with-js.css
+++v4-font-face.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\v4-font-face.css
+++v4-shims.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\v4-shims.css
+++v5-font-face.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\v5-font-face.css
+++all.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\all.js
+++brands.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\brands.js
+++conflict-detection.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\conflict-detection.js
+++fontawesome.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\fontawesome.js
+++regular.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\regular.js
+++solid.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\solid.js
+++v4-shims.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\v4-shims.js
+++brands.svg
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\sprites\brands.svg
+++regular.svg
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\sprites\regular.svg
+++solid.svg
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\sprites\solid.svg
+++fa-brands-400.ttf
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\webfonts\fa-brands-400.ttf
+++fa-brands-400.woff2
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\webfonts\fa-brands-400.woff2
+++fa-regular-400.ttf
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\webfonts\fa-regular-400.ttf
+++fa-regular-400.woff2
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\webfonts\fa-regular-400.woff2
+++fa-solid-900.ttf
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\webfonts\fa-solid-900.ttf
+++fa-solid-900.woff2
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\webfonts\fa-solid-900.woff2
+++fa-v4compatibility.ttf
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\webfonts\fa-v4compatibility.ttf
+++fa-v4compatibility.woff2
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\webfonts\fa-v4compatibility.woff2
+++jquery.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++bootstrap.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++all.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\all.min.css
+++brands.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\brands.min.css
+++fontawesome.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\fontawesome.min.css
+++regular.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\regular.min.css
+++solid.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\solid.min.css
+++svg-with-js.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\svg-with-js.min.css
+++v4-font-face.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\v4-font-face.min.css
+++v4-shims.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\v4-shims.min.css
+++v5-font-face.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\css\v5-font-face.min.css
+++brands.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\brands.min.js
+++conflict-detection.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\conflict-detection.min.js
+++fontawesome.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\fontawesome.min.js
+++regular.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\regular.min.js
+++solid.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\solid.min.js
+++v4-shims.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\font-awesome\js\v4-shims.min.js
+++additional-methods.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++bootstrap.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.esm.js.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++SweetAlertHelper.cs
+i:{6e87365c-35a5-40d4-a83b-7ee41df1edab}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\services\staticdata\sweetalerttemplates\sweetalerthelper.cs
+++VM5
+++localhost:44304
+++VehicleDetails
+++RegisterAVehicle
+++Dashboard
+++VM58
+++VM59
+++VM60
+++ListedVehicle - Copy.cs
+++ListedVehicleSoldVm.cs
+i:{c1e0fbd6-0bd1-4bdd-bf77-bbb758ea41d7}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\models\listedvehiclemodels\listedvehiclesoldvm.cs
+++fblogin - Copy.js
+++site.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\site.js
+++VM22
+++VM23
+++VM24
+++VM25
+++VM26
+++VM27
+++VM28
+++VM29
+++VM30
+++VM31
+++VM32
+++VM33
+++VM34
+++VM35
+++VM36
+++VM37
+++VM61
+++VM62
+++VM63
+++VM64
+++VM65
+++VM66
+++VM67
+++VM68
+++VM69
+++VM70
+++VM71
+++VM72
+++VM73
+++VM74
+++VM75
+++VM76
+++VM77
+++VM78
+++VM80
+++dashboard.js
+i:{6867497a-e400-4add-aa80-04dd934c52bf}:c:\users\paulyglot\desktop\portoflio\autoseller client\autosellerclient\autosellerclientwebapplication\wwwroot\js\dashboard.js
+++jquery.dataTables.min.js

@@ -1,0 +1,121 @@
+.register-vehicle-form {
+    padding-left: 45px;
+    padding-left: 45px;
+    margin-bottom: 45px;
+}
+
+.register-vehicle-page-title {
+    width: 100%;
+    padding: 4px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    color: #11a8ab;
+    text-align: center;
+}
+
+.register-vehicle-select {
+    position: relative;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #700000;
+    box-sizing: border-box;
+}
+
+    .register-vehicle-select:focus {
+        outline: none;
+        border: 2px solid #700000;
+    }
+
+.register-vehicle-label {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.register-vehicle-input {
+    position: relative;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid #700000;
+    box-sizing: border-box;
+}
+
+    .register-vehicle-input:focus {
+        outline: none;
+        border: 2px solid #700000;
+    }
+
+.register-vehicle-textarea {
+    resize: both;
+    width: 300px;
+    max-width: 100%;
+    max-height: 540px;
+}
+
+    .register-vehicle-textarea:focus {
+        outline: 2px solid #700000;
+    }
+
+.register-vehicle-button {
+    width: 200px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: -100px;
+    left: 40%;
+}
+
+
+/*Media*/
+@media only screen and (max-width: 991px) {
+    .register-vehicle-form {
+        padding: 4% 4%;
+    }
+
+    .register-vehicle-input {
+        margin-top: 0;
+    }
+
+    .register-vehicle-label {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .register-vehicle-button {
+        width: 200px;
+        height: auto;
+        margin-top: 15px;
+        margin-left: -100px;
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .register-vehicle-page-title {
+        word-break: break-word;
+        width: 100%;
+        padding: 20px;
+        margin-top: 15%;
+        color: #11a8ab;
+        text-align: center;
+    }
+    
+    .register-vehicle-input {
+        width: 250px;
+    }
+
+    .register-vehicle-select {
+        width: 250px;
+    }
+
+    .register-vehicle-textarea {
+        min-width: 250px;
+    }
+}

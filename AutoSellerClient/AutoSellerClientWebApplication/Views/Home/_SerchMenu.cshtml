@@ -1,0 +1,100 @@
+﻿@model IndexPageVm?
+
+<div class="searchmenu">
+    <div class="container-fluid" id="searchmenu">
+        <div class="row">
+            @*Section*@
+            <div class="col-xl-2 col-lg-12 col-md-12 col-sm-12 searchmenu-section">
+                @*Maker*@
+                <div class="row search-section-group">
+                    <label class="normal-label col-12">Makers</label>
+                    <select class="normal-select searchmenu-select col-12 w-100" id="maker">
+                        <option selected="" value="">All</option>
+                        @foreach (var maker in @Model.ListOfMakers)
+                        {
+                            <option value="@maker.MakerName">@maker.MakerName</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            @*Section*@
+            <div class="col-lg-5 me-auto col-md-6 col-sm-12 searchmenu-section">
+                @*Price*@
+                <div class="row search-section-group">
+                    <label class="normal-label col-md-5 col-sm-12 ">Max. Price</label>
+                    <input class="normal-input searchmenu-input col-7" id="maxPrice" />
+                    <br />
+                </div>
+                @*Year*@
+                <div class="row search-section-group">
+                    <label class="normal-label col-md-5 col-sm-12">Max. Year</label>
+                    <input class="normal-input searchmenu-input col-7" id="maxYear" />
+                    <br />
+                </div>
+                @*Mileage*@
+                <div class="row search-section-group">
+                    <label class="normal-label col-md-5 col-sm-12">Max. Mileage</label>
+                    <input class="normal-input searchmenu-input col-7" id="mileage" />
+                </div>
+            </div>
+            @*Section*@
+            <div class="col-lg-5 col-md-6 col-sm-12 searchmenu-section">
+                @*Color*@
+                <div class="row search-section-group">
+                    <label class="normal-label col-md-4 col-sm-12">Color</label>
+                    <select class="normal-select searchmenu-select col-8" id="color">
+                        <option selected="" value="">All</option>
+                        @foreach (var color in Colors.ColorsList)
+                        {
+                            <option value="@color">@color</option>
+                        }
+                    </select>
+                    <br />
+                </div>
+                @*Transmission*@
+                <div class="row search-section-group">
+                    <label class="normal-label col-md-4 col-sm-12"> Transmission</label>
+                    <select class="normal-select searchmenu-select col-8" id="transmission">
+                        <option selected="" value="">All</option>
+                        @foreach (var option in Transmissions.TransmissionList)
+                        {
+                            <option value="@option">@option</option>
+                        }
+                    </select>
+                    <br />
+                </div>
+                @*Drive Train*@
+                <div class="row search-section-group">
+                    <label class="normal-label col-md-4 col-sm-12">DriveTrain</label>
+                    <select class="normal-select searchmenu-select col-8" id="driveTrain">
+                        <option selected="" value="">All</option>
+                        @foreach (var option in DriveTrains.DriveTrainList)
+                        {
+                            <option value="@option">@option</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            @*Search Button*@
+            <div class="col-12 normal-button search-button" id="search" tabindex="0" onkeydown="onEnter(this,event)">
+                <span class="text-capitalize text-center" id="loadingiftext">Search</span>
+                <ul class="lg" style="display: none" id="loadinggif">
+                    <li class="li"></li>
+                    <li class="li"></li>
+                    <li class="li"></li>
+                    <li class="li"></li>
+                    <li class="li"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    @*Search menu collapse button*@
+    <div class="col-12 text-center searchmenu-icon" id="searchmenutoggler" data-tooltip="Click to Open/Close Search Filters" tabindex="0" onkeydown="onEnter(this, event)">
+        <span class="searchmenu-title" id="filterTitle" value="">
+            Filters
+            <i class="icon fa-solid fa-angles-up" id="searchbuttonup" style="display: inline"></i>
+            <i class="icon fa-solid fa-angles-down" id="searchbuttondown" style="display: none"></i>
+        </span>
+    </div>
+</div>

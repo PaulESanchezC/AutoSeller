@@ -1,0 +1,18 @@
+.profile-form {
+    padding: 10px;
+}
+
+.profile-form-group {
+    margin: 15px;
+    padding: 5px;
+}
+
+.profile-sumbit-button {
+    width: 160px;
+    margin-left: -80px;
+    left: 50%;
+}
+
+.set-password-form {
+    padding: 12px;
+}

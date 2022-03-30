@@ -1,0 +1,620 @@
+﻿++Solution 'AutoSellerAPI' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:AutoSellerAPI.sln
+++Text Files
+i:{00000000-0000-0000-0000-000000000000}:Text Files
+++TextFile1.txt
+i:{9ce15376-fb00-4919-a036-f37921ff857e}:C:\Users\Paulyglot\Desktop\Portoflio\AutoSellerAPI\AutoSellerAPI\TextFile1.txt
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\textfile1.txt
+++AutoSellerAPI
+i:{00000000-0000-0000-0000-000000000000}:AutoSellerAPI
+++Connected Services 
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1447
+++Dependencies
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1446
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1168
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:>1169
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:>1167
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:>1170
+++Properties
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\properties\
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\properties\
+++launchSettings.json
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\launchsettings.json
+++Controllers
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\controllers\
+++AccountController.cs
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\controllers\accountcontroller.cs
+++ImageController.cs
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\controllers\imagecontroller.cs
+++IntentController.cs
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\controllers\intentcontroller.cs
+++ListedVehicleController.cs
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\controllers\listedvehiclecontroller.cs
+++MakerController.cs
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\controllers\makercontroller.cs
+++VehicleController.cs
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\controllers\vehiclecontroller.cs
+++appsettings.json
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\appsettings.json
+++appsettings.Development.json
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\appsettings.development.json
+++appsettings.Production.json
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\appsettings.production.json
+++Program.cs
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\program.cs
+++No service dependencies discovered
+++Analyzers
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:analyzers
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:analyzers
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:analyzers
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:analyzers
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:analyzers
+++Frameworks
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:frameworks
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:frameworks
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:frameworks
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:frameworks
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:frameworks
+++Packages
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:packages
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:packages
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:packages
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:packages
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:packages
+++Projects
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:projects
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:projects
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:projects
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:projects
+++Microsoft.AspNetCore.Analyzers
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\microsoft.netcore.app
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\microsoft.netcore.app
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\microsoft.netcore.app
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\microsoft.netcore.app
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\microsoft.netcore.app
+++Microsoft.AspNetCore.Identity (2.2.0)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1518
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1492
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:>1458
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1520
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:>1459
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:>1487
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:>1486
+++Microsoft.AspNetCore.Identity.UI (6.0.2)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1524
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1499
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:>1491
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.2)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1519
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1496
+++Microsoft.EntityFrameworkCore (6.0.2)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1514
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:>1455
+++Microsoft.EntityFrameworkCore.Design (6.0.2)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1516
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:>1457
+++Microsoft.EntityFrameworkCore.Relational (6.0.2)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1522
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:>1460
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1515
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:>1456
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:>1481
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1523
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:>1461
+++Microsoft.Extensions.Identity.Core (6.0.2)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1521
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1497
+++Swashbuckle.AspNetCore (6.3.0)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>1517
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1488
+++Configurations
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\configurations.csproj
+i:{00000000-0000-0000-0000-000000000000}:Configurations
+++Data
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\data.csproj
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\data.csproj
+i:{00000000-0000-0000-0000-000000000000}:Data
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\data.csproj
+++Models
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\models.csproj
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\models.csproj
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\models.csproj
+i:{00000000-0000-0000-0000-000000000000}:Models
+++Services
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\services.csproj
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\services.csproj
+i:{00000000-0000-0000-0000-000000000000}:Services
+++AutoMapperConfigurations
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\automapperconfigurations\
+++ConfigurationsHelper
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\configurationshelper\
+++CorsConfigurations
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\corsconfigurations\
+++DataAccessConfigurations
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\dataaccessconfigurations\
+++DIContainer
+++ExternalLoginConfiguration
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\externalloginconfiguration\
+++IdentityConfigurations
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\identityconfigurations\
+++JsonConfigurations
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\jsonconfigurations\
+++JwtConfiguration
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\jwtconfiguration\
+++PolicyAuthorizationConfigurations
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\policyauthorizationconfigurations\
+++PolicyAuthorizationConfiguration.cs
+++ServicesConfigurations
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\servicesconfigurations\
+++SwaggerGenConfigurations
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\swaggergenconfigurations\
+++Resources.resx
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\properties\resources.resx
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\properties\resources.resx
+++AutoMapperOptionsConfigurations.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\automapperconfigurations\automapperoptionsconfigurations.cs
+++ProxyConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\configurationshelper\proxyconfiguration.cs
+++CorsConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\corsconfigurations\corsconfiguration.cs
+++DbContextConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\dataaccessconfigurations\dbcontextconfiguration.cs
+++DIContainer.cs
+++FacebookLoginConfiguration
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\externalloginconfiguration\facebookloginconfiguration\
+++IdentityConfigurationOptions.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\identityconfigurations\identityconfigurationoptions.cs
+++JsonConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\jsonconfigurations\jsonconfiguration.cs
+++JwtConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\jwtconfiguration\jwtconfiguration.cs
+++AuthenticationServiceConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\servicesconfigurations\authenticationserviceconfiguration.cs
+++JwtServiceConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\servicesconfigurations\jwtserviceconfiguration.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\jwtserviceconfigurationmodel\jwtserviceconfiguration.cs
+++RepositoryConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\servicesconfigurations\repositoryconfiguration.cs
+++SwaggerGenConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\swaggergenconfigurations\swaggergenconfiguration.cs
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1485
+++Microsoft.AspNetCore.Authentication.Facebook (6.0.2)
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1490
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.2)
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1498
+++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:>1494
+++Resources.Designer.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\properties\resources.designer.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\properties\resources.designer.cs
+++FacebookLoginConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\externalloginconfiguration\facebookloginconfiguration\facebookloginconfiguration.cs
+++FluentApis
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\fluentapis\
+++Migrations
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\
+++20220217184946_InitialModel.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220217184946_initialmodel.cs
+++20220217224113_CreatedInitialModels.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220217224113_createdinitialmodels.cs
+++20220219164604_Create_FluentApiForModels.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220219164604_create_fluentapiformodels.cs
+++20220219164923_Add_VehiclesListedToAppUser.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220219164923_add_vehicleslistedtoappuser.cs
+++20220221162628_Create_ListedVehiclesModels.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220221162628_create_listedvehiclesmodels.cs
+++20220221164638_Update_IntentModel.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220221164638_update_intentmodel.cs
+++20220221164912_Update_IntentModel_Add_ListedVehicle.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220221164912_update_intentmodel_add_listedvehicle.cs
+++20220221170544_Add_fluentApis.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220221170544_add_fluentapis.cs
+++20220222121726_Added_DeleteStatusToListedVehicleModel_andTo_IntentModel.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220222121726_added_deletestatustolistedvehiclemodel_andto_intentmodel.cs
+++20220223173345_Update_IdTags_to_SpecificModelIdTag.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220223173345_update_idtags_to_specificmodelidtag.cs
+++20220223200305_Update_MakerNameCol.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220223200305_update_makernamecol.cs
+++20220224000507_Update_TransmissionCol_fromEnumToString_ListedVehicleTbl.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220224000507_update_transmissioncol_fromenumtostring_listedvehicletbl.cs
+++20220224015820_Update_ListedVehicleTbl_CreatedNewCols.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220224015820_update_listedvehicletbl_creatednewcols.cs
+++20220224175238_Update_IntentTbl_intentReceiverIdTypo.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220224175238_update_intenttbl_intentreceiveridtypo.cs
+++20220226045029_attemptToRegenerateIdentityDatabase.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220226045029_attempttoregenerateidentitydatabase.cs
+++20220226045311_ReBuildNetCoreIdentityDatabase.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220226045311_rebuildnetcoreidentitydatabase.cs
+++20220226184423_Delete_ClientConfirmationUrlCol_from_ApplicationUserTbl.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220226184423_delete_clientconfirmationurlcol_from_applicationusertbl.cs
+++20220311042418_Removed_ImageDescriptionCol.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220311042418_removed_imagedescriptioncol.cs
+++20220318004548_Add_isDeletedCol_to_ListeVehicleTbl.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220318004548_add_isdeletedcol_to_listevehicletbl.cs
+++20220318034801_Add_IsReadCol_and_IsDescartedCol_to_IntentTbl.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220318034801_add_isreadcol_and_isdescartedcol_to_intenttbl.cs
+++20220318095529_Update__IsDiscardedCol_typo.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220318095529_update__isdiscardedcol_typo.cs
+++20220321220539_Add-Guest-Roles-to-Database.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220321220539_add-guest-roles-to-database.cs
+++20220322001128_Add-SuperRole_deCartierSanchez.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322001128_add-superrole_decartiersanchez.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\applicationdbcontextmodelsnapshot.cs
+++ApplicationDbContext.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\applicationdbcontext.cs
+++ImagesFluentApi.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\fluentapis\imagesfluentapi.cs
+++IntentsFluentApi.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\fluentapis\intentsfluentapi.cs
+++ListedVehicleFluentApi.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\fluentapis\listedvehiclefluentapi.cs
+++MakerFluentApi.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\fluentapis\makerfluentapi.cs
+++VehiclesFluentApi.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\fluentapis\vehiclesfluentapi.cs
+++20220217184946_InitialModel.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220217184946_initialmodel.designer.cs
+++20220217224113_CreatedInitialModels.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220217224113_createdinitialmodels.designer.cs
+++20220219164604_Create_FluentApiForModels.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220219164604_create_fluentapiformodels.designer.cs
+++20220219164923_Add_VehiclesListedToAppUser.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220219164923_add_vehicleslistedtoappuser.designer.cs
+++20220221162628_Create_ListedVehiclesModels.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220221162628_create_listedvehiclesmodels.designer.cs
+++20220221164638_Update_IntentModel.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220221164638_update_intentmodel.designer.cs
+++20220221164912_Update_IntentModel_Add_ListedVehicle.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220221164912_update_intentmodel_add_listedvehicle.designer.cs
+++20220221170544_Add_fluentApis.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220221170544_add_fluentapis.designer.cs
+++20220222121726_Added_DeleteStatusToListedVehicleModel_andTo_IntentModel.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220222121726_added_deletestatustolistedvehiclemodel_andto_intentmodel.designer.cs
+++20220223173345_Update_IdTags_to_SpecificModelIdTag.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220223173345_update_idtags_to_specificmodelidtag.designer.cs
+++20220223200305_Update_MakerNameCol.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220223200305_update_makernamecol.designer.cs
+++20220224000507_Update_TransmissionCol_fromEnumToString_ListedVehicleTbl.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220224000507_update_transmissioncol_fromenumtostring_listedvehicletbl.designer.cs
+++20220224015820_Update_ListedVehicleTbl_CreatedNewCols.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220224015820_update_listedvehicletbl_creatednewcols.designer.cs
+++20220224175238_Update_IntentTbl_intentReceiverIdTypo.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220224175238_update_intenttbl_intentreceiveridtypo.designer.cs
+++20220226045029_attemptToRegenerateIdentityDatabase.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220226045029_attempttoregenerateidentitydatabase.designer.cs
+++20220226045311_ReBuildNetCoreIdentityDatabase.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220226045311_rebuildnetcoreidentitydatabase.designer.cs
+++20220226184423_Delete_ClientConfirmationUrlCol_from_ApplicationUserTbl.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220226184423_delete_clientconfirmationurlcol_from_applicationusertbl.designer.cs
+++20220311042418_Removed_ImageDescriptionCol.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220311042418_removed_imagedescriptioncol.designer.cs
+++20220318004548_Add_isDeletedCol_to_ListeVehicleTbl.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220318004548_add_isdeletedcol_to_listevehicletbl.designer.cs
+++20220318034801_Add_IsReadCol_and_IsDescartedCol_to_IntentTbl.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220318034801_add_isreadcol_and_isdescartedcol_to_intenttbl.designer.cs
+++20220318095529_Update__IsDiscardedCol_typo.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220318095529_update__isdiscardedcol_typo.designer.cs
+++20220321220539_Add-Guest-Roles-to-Database.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220321220539_add-guest-roles-to-database.designer.cs
+++20220322001128_Add-SuperRole_deCartierSanchez.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322001128_add-superrole_decartiersanchez.designer.cs
+++AuthenticationServices
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\authenticationservices\
+++JwtServices
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\jwtservices\
+++Repository
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\
+++StaticService
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\staticservice\
+++FacebookOAuth.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\staticservice\facebookoauth.cs
+++JwtBearerDefaults.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\staticservice\jwtbearerdefaults.cs
+++RoleTypes.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\staticservice\roletypes.cs
+++AuthenticationService.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\authenticationservices\authenticationservice.cs
+++IAuthenticationService.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\authenticationservices\iauthenticationservice.cs
+++IJwtServices.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\jwtservices\ijwtservices.cs
+++JwtServices.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\jwtservices\jwtservices.cs
+++Images
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\images\
+++Intents
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\intents\
+++ListedVehicles
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\listedvehicles\
+++Makers
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\makers\
+++Vehicles
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\vehicles\
+++CrudRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\crudrepository.cs
+++ICrudRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\icrudrepository.cs
+++AutoMapper (11.0.1)
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:>1489
+++Newtonsoft.Json (13.0.1)
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:>1483
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:>1484
+++IImagesRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\images\iimagesrepository.cs
+++ImagesRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\images\imagesrepository.cs
+++IIntentsRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\intents\iintentsrepository.cs
+++IntentRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\intents\intentrepository.cs
+++IListedVehiclesRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\listedvehicles\ilistedvehiclesrepository.cs
+++ListedVehiclesRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\listedvehicles\listedvehiclesrepository.cs
+++IMakerRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\makers\imakerrepository.cs
+++MakerRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\makers\makerrepository.cs
+++IVehicleRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\vehicles\ivehiclerepository.cs
+++VehicleRepository.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\repository\vehicles\vehiclerepository.cs
+++ApplicationUsersModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\applicationusersmodels\
+++AppSettingsOptionsModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\appsettingsoptionsmodels\
+++AuthenticationModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\
+++ExternalLoginModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\externalloginmodels\
+++ImagesModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\imagesmodels\
+++IntentsModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\intentsmodels\
+++JwtServiceConfigurationModel
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\jwtserviceconfigurationmodel\
+++ListedVehiclesModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\listedvehiclesmodels\
+++MakerModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\makermodels\
+++ResponseModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\responsemodels\
+++VehiclesModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\vehiclesmodels\
+++ApplicationUser.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\applicationusersmodels\applicationuser.cs
+++ApplicationUserDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\applicationusersmodels\applicationuserdto.cs
+++FacebookOptions.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\appsettingsoptionsmodels\facebookoptions.cs
+++EmailConfirmationDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\emailconfirmationdto.cs
+++FacebookLoginResultDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\facebookloginresultdto.cs
+++FacebookRegistrationDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\facebookregistrationdto.cs
+++ResetPasswordDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\resetpassworddto.cs
+++ResetPasswordTokenValidatorDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\resetpasswordtokenvalidatordto.cs
+++SetUserPasswordDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\setuserpassworddto.cs
+++UserLoginAttemptDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\userloginattemptdto.cs
+++UserLoginDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\userlogindto.cs
+++UserRegistrationAttemptDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\userregistrationattemptdto.cs
+++UserRegistrationDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\authenticationmodels\userregistrationdto.cs
+++FacebookTokenValidationResult.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\externalloginmodels\facebooktokenvalidationresult.cs
+++FacebookUserInfoResult.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\externalloginmodels\facebookuserinforesult.cs
+++Image.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\imagesmodels\image.cs
+++ImageCreateDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\imagesmodels\imagecreatedto.cs
+++ImageDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\imagesmodels\imagedto.cs
+++ImageUpdateDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\imagesmodels\imageupdatedto.cs
+++Intent.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\intentsmodels\intent.cs
+++IntentCreateDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\intentsmodels\intentcreatedto.cs
+++IntentDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\intentsmodels\intentdto.cs
+++IntentUpdateDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\intentsmodels\intentupdatedto.cs
+++ListedVehicle.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\listedvehiclesmodels\listedvehicle.cs
+++ListedVehicleCreateDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\listedvehiclesmodels\listedvehiclecreatedto.cs
+++ListedVehicleDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\listedvehiclesmodels\listedvehicledto.cs
+++ListedVehicleSearchModelDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\listedvehiclesmodels\listedvehiclesearchmodeldto.cs
+++ListedVehicleSoldDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\listedvehiclesmodels\listedvehiclesolddto.cs
+++ListedVehicleUpdateDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\listedvehiclesmodels\listedvehicleupdatedto.cs
+++Maker.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\makermodels\maker.cs
+++MakerCreateDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\makermodels\makercreatedto.cs
+++MakerDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\makermodels\makerdto.cs
+++MakerUpdateDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\makermodels\makerupdatedto.cs
+++Response.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\responsemodels\response.cs
+++ResponseWithPages.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\responsemodels\responsewithpages.cs
+++Vehicle.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\vehiclesmodels\vehicle.cs
+++VehicleCreateDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\vehiclesmodels\vehiclecreatedto.cs
+++VehicleDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\vehiclesmodels\vehicledto.cs
+++VehicleUpdatetDto.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\vehiclesmodels\vehicleupdatetdto.cs
+++NewFolder
+++PolicyAuthora
+++PolicyAuthorization
+++AdminUserRights.cs
+++PolicyBasedAuthNames.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\staticservice\policybasedauthnames.cs
+++PolicyBasedAuthOptionsModels
+++Policy.cs
+++PolicyAuthorizationServiceConfiguration.cs
+++PolicyServiceConfiguration.cs
+++PolicyServiceConfigurations.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\policyauthorizationconfigurations\policyserviceconfigurations.cs
+++Policy
+++PolicyAuthorizationConfigurationsModels
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\policyauthorizationconfigurationsmodels\
+++PolicyServiceOptions.cs
+i:{1be8754b-2056-4f8b-8c5f-2df52f22c900}:c:\users\paulyglot\desktop\portoflio\autosellerapi\models\policyauthorizationconfigurationsmodels\policyserviceoptions.cs
+++PolicyBasedAuthServices
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\policybasedauthservices\
+++IsUserAdmin.cs
+++IsUserAdmin
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\policybasedauthservices\isuseradmin\
+++IsUserAdminHandler.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\policybasedauthservices\isuseradmin\isuseradminhandler.cs
+++IsUserAdminRequirement.cs
+i:{8179e18a-c61b-44bd-ad3d-41844f6c3da1}:c:\users\paulyglot\desktop\portoflio\autosellerapi\services\policybasedauthservices\isuseradmin\isuseradminrequirement.cs
+++Secrets.json (Local)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>6810
+++Secrets.json (Local) dependency is detected
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>6811
+++SQL Server Database
+++SQL Server Database dependency is detected
+++20220322022913_add-Admin-to-Database.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322022913_add-admin-to-database.cs
+++20220322022913_add-Admin-to-Database.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322022913_add-admin-to-database.designer.cs
+++PublishProfiles
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\publishprofiles\
+++AutoSellerApi - Web Deploy.pubxml
+++ServiceDependencies
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\servicedependencies\
+++AutoSellerApi - Web Deploy
+++profile.arm.json
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\servicedependencies\autosellerresources - web deploy\profile.arm.json
+++Azure.Identity (1.4.0)
+++Azure.Extensions.AspNetCore.Configuration.Secrets (1.0.0)
+++serviceDependencies.json
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\servicedependencies.json
+++serviceDependencies.AutoSellerApi - Web Deploy.json
+++Secrets (VaultUri)
+++secrets1.arm.json
+++SQL Server Database (AutoSellerDbConnectionString)
+++Dependency mssql1 is missing and needs to be configured for current profile.
+++mssql1.arm.json
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\servicedependencies\autosellerresources - web deploy\mssql1.arm.json
+++Azure.Identity (1.5.0)
+++Azure.Security.KeyVault.Keys (4.2.0)
+++Azure.Extensions.AspNetCore.Configuration.Secrets (1.2.1)
+++Azure
+++AzureConfigurations
+++AzureConfigurations.cs
+++Azure API Management
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>10658
+++This dependency type is not supported for current profile.
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>10659
+++apis1.arm.json
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\servicedependencies\autosellerresources - web deploy\apis1.arm.json
+++Dependency secrets1 is missing and needs to be configured for current profile.
+++SQL Server Database (ConnectionStrings:AutoSellerConnection)
+++SQL Server Database (ConnectionStrings:AutoSellerConnectionString)
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:>6814
+++AutoSellerResources - Web Deploy.pubxml
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\publishprofiles\autosellerresources - web deploy.pubxml
+++AutoSellerResources - Web Deploy
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\servicedependencies\autosellerresources - web deploy\
+++serviceDependencies.AutoSellerResources - Web Deploy.json
+i:{81b21c31-87f6-4f32-ad90-40914c7f516a}:c:\users\paulyglot\desktop\portoflio\autosellerapi\autosellerapi\properties\servicedependencies.autosellerresources - web deploy.json
+++AutoMapperServiceConfiguration.cs
+i:{ec35f360-6600-4472-bc7f-ac1a6c318b13}:c:\users\paulyglot\desktop\portoflio\autosellerapi\configurations\automapperconfigurations\automapperserviceconfiguration.cs
+++20220322175429_Add-MakersData-to-database.cs
+++20220322175429_Add-MakersData-to-database.Designer.cs
+++20220322175726_Seed-UsersData-to-database.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322175726_seed-usersdata-to-database.cs
+++20220322175726_Seed-UsersData-to-database.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322175726_seed-usersdata-to-database.designer.cs
+++20220322180151_Seed-MakersData-to-database.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322180151_seed-makersdata-to-database.cs
+++20220322180151_Seed-MakersData-to-database.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322180151_seed-makersdata-to-database.designer.cs
+++20220322180315_Seed-VehiclesData-to-database.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322180315_seed-vehiclesdata-to-database.cs
+++20220322180315_Seed-VehiclesData-to-database.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322180315_seed-vehiclesdata-to-database.designer.cs
+++20220322180426_Seed-ListedVehiclesData-to-database.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322180426_seed-listedvehiclesdata-to-database.cs
+++20220322180426_Seed-ListedVehiclesData-to-database.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322180426_seed-listedvehiclesdata-to-database.designer.cs
+++20220322180524_Seed-ImagesData-to-database.cs
+++20220322180524_Seed-ImagesData-to-database.Designer.cs
+++20220322180747_Seed-IntentsData-to-database.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322180747_seed-intentsdata-to-database.cs
+++20220322180747_Seed-IntentsData-to-database.Designer.cs
+i:{d495fe7d-7b8c-4683-87a9-42d7a33cba31}:c:\users\paulyglot\desktop\portoflio\autosellerapi\data\migrations\20220322180747_seed-intentsdata-to-database.designer.cs

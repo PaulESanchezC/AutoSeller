@@ -1,0 +1,31 @@
+﻿@model EmailConfirmationPageVm
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-12 options-page-title">
+            <span class="display-4">Thank you</span> <br />
+            <span class="display-6">AutoSeller.</span>
+        </div>
+        @if (Model.IsUserConfirmed)
+        {
+            <div class="col-12 mt-5">
+                <p class="text-dark-highlighter text-center">
+                    The Account with the email address of @Model.Email is now Verified.<br />
+                    Please <a href="/Login/Login">login</a> with your account and enjoy the benefits of this application
+                </p>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts{
+<script>
+    $(function() {
+        pulse();
+        function pulse() {
+            $("#Login").fadeIn("slow").delay(200).fadeOut("slow", pulse);
+        }
+    });
+</script>
+}

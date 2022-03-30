@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/*Structure*/
+.grid-container {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+}
+
+.main {
+    grid-area: main;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.main-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    grid-auto-rows: 94px;
+    grid-gap: 20px;
+}
+
+.page {
+    position: relative;
+    padding: 5px;
+    overflow-x: hidden;
+}
+
+.page-title {
+    width: 100%;
+    padding: 12px;
+    color: #11a8ab;
+    text-align: center;
+}
+
+.icon {
+    color: #11a8ab !important
+}
+
+
+/*Elements*/
+.normal-label {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.normal-input {
+    position: relative;
+    border: 1px solid #700000;
+    border-radius: 5px;
+    padding: 3px 10px;
+    box-sizing: border-box;
+}
+
+.normal-button {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 25px;
+    color: #03A678;
+}
+
+    .normal-button:hover {
+        border: 1px solid #BFB69B;
+        color: #03A678;
+        border-radius: 15px;
+    }
+
+.normal-button:focus {
+    outline: none;
+    border: 1px solid #BFB69B;
+    color: #03A678;
+    border-radius: 15px;
+}
+
+.normal-select {
+    position: relative;
+    border: 1px solid #700000;
+    border-radius: 5px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+}
+
+.vehicle-text {
+    font-size: 14px;
+}
+
+.vehicle-description {
+    padding: 8px;
+    border: 1px solid rgba(57,66,99,0.1);
+    border-radius: 5px;
+    max-height: 540px;
+    max-width: 300px
+}
+
+    .vehicle-description:first-letter {
+        text-transform: capitalize
+    }
+
+.vehicle-div {
+    position: relative;
+    height: 475px;
+    border: 1px solid rgba(57,66,99,0.1);
+    border-radius: 5px;
+    padding: 0 0 5px 0;
+    margin: 5px;
+}
+
+/*Stylers*/
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    right: 0;
+    margin-top: 2px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #bfb69b;
+    color: aliceblue;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.text-bright-highlighter {
+    color: #324BD9;
+}
+
+.text-dark-highlighter {
+    color: #212940;
+}
+
+/*Media*/
+@media only screen and (min-width: 750px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 240px 1fr;
+        grid-template-areas:
+            "sidenav main"
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .grid-container {
+        height: 100vh;
+    }
+    .page-title {
+        margin-top: 4%;
+        padding: 4%;
+    }
+}

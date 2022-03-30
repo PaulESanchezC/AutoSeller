@@ -1,0 +1,290 @@
+/*Dashboard*/
+.vehicle-div-2 {
+    position: relative;
+    height: auto;
+    max-height: 100vh;
+    padding: 0 0 5px 20px;
+    margin: 5px;
+}
+
+.dashboard-viehicle-body {
+    position: relative;
+    height: 290px;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .05);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+    .dashboard-viehicle-body .delete-button {
+        position: absolute;
+        width: 50px;
+        top: 45%;
+        left: 80%;
+        padding: 8px 8px;
+        border: none;
+        border-radius: 35px;
+        background-color: rgba(209,26,42,0.65);
+        cursor: pointer;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+.dashboard-viehicle-title {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    text-align: left;
+    background-color: rgba(154,180,191,0.08);
+}
+
+.dashboard-viehicle-contet {
+    padding: 10px;
+}
+
+.dashboard-button {
+    position: relative;
+    width: 140px;
+    left: 50%;
+    margin-left: -70px;
+    margin-top: 15px;
+}
+
+.autoSeller-table {
+    background-color: rgba(183, 246, 253, 0.4);
+    border-radius: 15px;
+}
+
+.dashboard-div {
+    position: relative;
+    top: 60px;
+    height: 100vh;
+}
+
+.datatable-button {
+    width: 50px;
+    height: 76px;
+    background-color: transparent;
+    color: #11a8ab;
+    border: 1px solid rgba(209,26,42,1);
+    border-radius: 25px;
+    transition: all 1s;
+}
+    .datatable-button:hover {
+        background-color: transparent;
+        color: rgba(209,26,42,1);
+        border: 1px solid #11a8ab;
+        border-radius: 12px;
+    }
+
+.datatable-sell-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #11a8ab;
+    border: 1px solid rgba(209,26,42,1);
+    border-radius: 25px;
+    transition: all 1s;
+}
+
+.datatable-sell-button:hover {
+    background-color: transparent;
+    border: 1px solid #11a8ab;
+    border-radius: 10px;
+}
+
+.datatable-delete-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: rgba(209,26,42,1);
+    border: 1px solid rgba(209,26,42,1);
+    border-radius: 25px;
+    transition: all 1s;
+}
+
+.dataTable thead .sorting_disabled {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.datatable-delete-button:hover {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.datatable-notification {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: rgba(209,26,42,1);
+    background-color: rgba(209,26,42,1);
+    border-radius: 25px;
+}
+
+.none {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+/*Dashboard Navbar*/
+.dashboard-top-menu {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: inherit;
+    background-color: #394263;
+    z-index: 1;
+}
+
+.dashboard-nav {
+    position: absolute;
+    list-style: none;
+}
+
+.dashboard-navlinks {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: auto;
+    padding: 15px 10px 10px 10px;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(242,227,220,1);
+    cursor: pointer;
+}
+
+    .dashboard-navlinks:focus {
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .dashboard-navlinks:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+.dashboard-topmenu-dropdown-icon {
+    display: none
+}
+
+.selected {
+    background-color: #11a8ab !important;
+}
+
+.dashboard-navlinks .intent-notification {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    height: 20px;
+    width: 100%;
+    background-color: rgba(209,26,42,0.7);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 12px;
+    color: #f3f3f3;
+    border: none;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 816px) {
+    /*Dashboard Navbar*/
+    .dashboard-topmenu-dropdown-icon {
+        position: fixed;
+        display: block;
+        right: 25px;
+        top: 5px;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding: 7px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.4);
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .dashboard-top-menu {
+        position: fixed;
+        width: 100%;
+    }
+
+    /* Dropdown*/
+    .dashboard-nav {
+        position: fixed;
+        top: 50px;
+        right: 0;
+        height: 240px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-content: center;
+        border-radius: 3px;
+        background-color: #394263;
+        z-index: 1;
+    }
+
+    .dashboard-navlinks {
+        height: 60px;
+        width: 200px;
+        padding: 20px 10px 10px 10px;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(242,227,220,1);
+        cursor: pointer;
+    }
+
+    .vehicle-div-2 {
+        padding: 0;
+    }
+
+
+    .dashboard-navlinks .intent-notification {
+        position: absolute;
+        top: 0;
+        left: -20px;
+        height: 100%;
+        width: 20px;
+        color: transparent !important;
+        background-color: rgba(209,26,42,0.7);
+        border-bottom-left-radius: 30px;
+        font-size: 12px;
+        color: #f3f3f3;
+        border: none;
+        z-index: -1;
+        writing-mode: vertical-rl;
+    }
+        .dashboard-navlinks .intent-notification::after {
+            content: '!';
+            color: white;
+            position: absolute;
+            top: 0;
+            left: 0px;
+            height: 0%;
+            width: 0px;
+            background-color: rgba(209,26,42,0.7);
+            border-bottom-left-radius: 30px;
+            font-size: 12px;
+            color: #f3f3f3;
+            border: none;
+            z-index: -1;
+            writing-mode: vertical-rl;
+        }
+}
+
+
+@media screen and (max-width: 1321px) {
+    .datatable-notification {
+        width: 80px;
+        height: 30px;
+    }
+}
+

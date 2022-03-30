@@ -1,0 +1,156 @@
+﻿@model RegisterAVehicleVm
+@inject IHttpContextAccessor _http
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="register-vehicle-page-title col-12">
+            <span class="display-4">Register a Vehicle</span>
+        </div>
+
+
+        <form method="post" asp-controller="User" asp-action="RegisterAVehicle" class="vehicle-details-form" enctype="multipart/form-data">
+            <input asp-for="ApplicationUserId" value="@_http.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value" hidden="" />
+            @*Maker*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label class="register-vehicle-label">Maker</label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <select class="register-vehicle-select" onchange="makerSelectOption();" id="makerSelect" autfocus>
+                        <option selected="" value="all" class="text-warning">All</option>
+                        @foreach (var maker in Model.MakersList)
+                        {
+                            <option value="@maker.MakerId">@maker.MakerName</option>
+                        }
+                    </select>
+                    <span asp-validation-for="VehicleId" class="text-danger"></span>
+                </div>
+            </div>
+            @*Model*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="VehicleId" class="register-vehicle-label"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <select asp-for="VehicleId" class="register-vehicle-select" id="modelsSelect">
+                        <option selected="" disabled="" value="" class="text-warning">--Please Select--</option>
+                        @foreach (var vehicle in Model.VehiclesModels)
+                        {
+                            <option value="@vehicle.VehicleId" data-target="@vehicle.Maker.MakerId">@vehicle.VehicleName</option>
+                        }
+                    </select>
+                    <span asp-validation-for="VehicleId" class="text-danger"></span>
+                </div>
+            </div>
+            @*Price*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="Price" class="register-vehicle-label"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <input asp-for="Price" type="number" class="register-vehicle-input" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+            </div>
+            @*Year*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="Year" class="register-vehicle-label"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <input asp-for="Year" type="number" class="register-vehicle-input" max="@DateTime.Now.Year.ToString()"/>
+                    <span asp-validation-for="Year" class="text-danger" ></span>
+                </div>
+            </div>
+            @*Transmission*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="Transmission" class="register-vehicle-label"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <select asp-for="Transmission" class="register-vehicle-select">
+                        <option selected="" disabled="" value="" class="text-warning">--Please Select--</option>
+                        @foreach (var option in Transmissions.TransmissionList)
+                        {
+                            <option value="@option">@option</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Transmission" class="text-danger"></span>
+                </div>
+            </div>
+            @*Mileage*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="Mileage" class="register-vehicle-label"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <input asp-for="Mileage" type="number" class="register-vehicle-input" />
+                    <span asp-validation-for="Mileage" class="text-danger"></span>
+                </div>
+            </div>
+            @*DriveTrain*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="DriveTrain" class="register-vehicle-label"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <select asp-for="DriveTrain" class="register-vehicle-select">
+                        <option selected="" value="" disabled="" class="text-warning">--Please Select--</option>
+                        @foreach (var option in DriveTrains.DriveTrainList)
+                        {
+                            <option value="@option">@option</option>
+                        }
+                    </select>
+                    <span asp-validation-for="DriveTrain" class="text-danger"></span>
+                </div>
+            </div>
+            @*Color*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="Color" class="register-vehicle-label"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <select asp-for="Color" class="register-vehicle-select">
+                        <option selected="" value="" disabled="" class="text-warning">--Please Select--</option>
+                        @foreach (var color in Colors.ColorsList)
+                        {
+                            <option value="@color">@color</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Color" class="text-danger"></span>
+                </div>
+            </div>
+            @*Description*@
+            <div class="row">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="Description" class="register-vehicle-label"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <textarea asp-for="Description" type="text" class="register-vehicle-textarea"
+                              cols="30" rows="6" maxlength="500"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+            @*Images*@
+            <div class="row mt-2">
+                <div class="col-xl-2 col-lg-4 col-sm-12">
+                    <label asp-for="ImageBytes" class="register-vehicle-label"></label>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <input asp-for="ImageBytes" name="files" id="vehicleImages" type="file" multiple="" class="form-control register-vehicle-input"/>
+                </div>
+            </div>
+            @*Submit button*@
+            <div class="row">
+                <div class="col-xl-8 col-lg-6 col-sm-12">
+                    <button type="submit" class="register-vehicle-button normal-button">Save and Continue</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/registerVehicle.js"></script>
+}

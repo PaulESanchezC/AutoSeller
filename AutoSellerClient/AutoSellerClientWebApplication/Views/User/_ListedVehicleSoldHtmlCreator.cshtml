@@ -1,0 +1,32 @@
+﻿@model ListedVehicle
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 vehicle-div-2">
+    @if (Model.Images.Any())
+    {
+        var base64 = Convert.ToBase64String(Model.Images.FirstOrDefault().ImageBytes);
+        var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+        <img src="@imgsrc" width="100%" />
+    }
+    <div class="dashboard-viehicle-body">
+        <div class="dashboard-viehicle-title">
+            <h5 class="card-title">
+                @Model.Year
+                @Model.Vehicle.Maker.MakerName,
+                @Model.Vehicle.VehicleName
+            </h5>
+            <p class="card-text">
+                CA$.&nbsp;<strong>@string.Format("{0:##,###,###}", Model.Price)</strong>
+            </p>
+        </div>
+        <div class="dashboard-viehicle-contet">
+            <span>Mileage: <strong>@string.Format("{0:##,###,###}",Model.Mileage)/Kms</strong></span><br />
+            <span>Transmission:<strong> @Model.Transmission</strong></span><br />
+            <span>Drive Train: <strong>@Model.DriveTrain</strong></span><br />
+            <span>Color: <strong>@Model.Color</strong></span><br />
+            <a asp-action="SoldVehicleDetails" asp-route-listedVehicleId="@Model.ListedVehicleId" target="_blank">
+                <button class="normal-button dashboard-button">
+                    Details
+                </button>
+            </a>
+        </div>
+    </div>
+</div>

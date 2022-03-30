@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ec35f360-6600-4472-bc7f-ac1a6c318b13": {
+      "ProjectGuid": "ec35f360-6600-4472-bc7f-ac1a6c318b13",
+      "DisplayName": "Configurations",
+      "ColorIndex": 0
+    },
+    "1be8754b-2056-4f8b-8c5f-2df52f22c900": {
+      "ProjectGuid": "1be8754b-2056-4f8b-8c5f-2df52f22c900",
+      "DisplayName": "Models",
+      "ColorIndex": 1
+    },
+    "d495fe7d-7b8c-4683-87a9-42d7a33cba31": {
+      "ProjectGuid": "d495fe7d-7b8c-4683-87a9-42d7a33cba31",
+      "DisplayName": "Data",
+      "ColorIndex": 2
+    },
+    "8179e18a-c61b-44bd-ad3d-41844f6c3da1": {
+      "ProjectGuid": "8179e18a-c61b-44bd-ad3d-41844f6c3da1",
+      "DisplayName": "Services",
+      "ColorIndex": 3
+    },
+    "81b21c31-87f6-4f32-ad90-40914c7f516a": {
+      "ProjectGuid": "81b21c31-87f6-4f32-ad90-40914c7f516a",
+      "DisplayName": "AutoSellerAPI",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

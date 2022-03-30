@@ -1,0 +1,79 @@
+﻿@inject IHttpContextAccessor _http
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoSeller Client WebApplication</title>
+
+    @*bootstrap*@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @*font-awesome*@
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    @*dashboard menu*@
+    <link rel="stylesheet" href="~/css/dashboardmenu.css" />
+    @*login*@
+    <link rel="stylesheet" href="~/css/login.css" />
+    @*register user*@
+    <link rel="stylesheet" href="~/css/registeruser.css" />
+    @*register vehicle*@
+    <link rel="stylesheet" href="~/css/registervehicle.css" />
+    @*search menu*@
+    <link rel="stylesheet" href="~/css/searchmenu.css" />
+    @*side nav*@
+    <link rel="stylesheet" href="~/css/sidenav.css" />
+    @*User Vehicle Detail*@
+    <link rel="stylesheet" href="~/css/uservehicledetails.css" />
+    @*profile*@
+    <link rel="stylesheet" href="~/css/profile.css" />
+    @*options*@
+    <link rel="stylesheet" href="~/css/options.css" />
+    @*loading giff*@
+    <link rel="stylesheet" href="~/css/loadinggiff.css" />
+    @*site.css*@
+    <link rel="stylesheet" href="~/css/site.css" />
+    @*Data tables*@
+    <link rel="stylesheet" href="//cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
+</head>
+
+<body>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0&appId= 921088648551296&autoLogAppEvents=1" nonce="MIth8cda"></script>
+
+    <div class="container-fluid p-0">
+        <div class="grid-container">
+            <partial name="_SideNav" />
+            <main role="main" class="main">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <!--jQuery-->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!--bootstrap V5.1-->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!--fb login js-->
+    <script src="~/js/fblogin.js" asp-append-version="true"></script>
+    <!--font awesome-->
+    <script src="~/lib/font-awesome/js/all.min.js"></script>
+    <!--sidenav-->
+    <script src="~/js/sidenav.js"></script>
+    <!--vehicle details user images-->
+    <script src="~/js/_vehicleimages.js"></script>
+    <!--dashboard top menu-->
+    <script src="~/js/dashboard.js"></script>
+    <!--sweet alerts cdn-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!--Data tables-->
+    <script src="//cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <!--Data Tables responsive-->
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+    
+    <!--site-->
+    <script src="~/js/site.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

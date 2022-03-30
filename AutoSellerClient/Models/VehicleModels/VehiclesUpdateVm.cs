@@ -1,0 +1,11 @@
+﻿using Models.MakerModels;
+
+namespace Models.VehicleModels;
+
+public class VehiclesUpdateVm
+{
+    public string VehicleId { get; set; }
+    public string VehicleName { get; set; }
+    public string MakerId { get; set; }
+    public Makers Maker { get; set; }
+}

@@ -1,0 +1,167 @@
+﻿@model DashboardVm
+@inject IHttpContextAccessor _http
+<partial name="_UserDashboardTopMenu" />
+
+<div class="container-fluid">
+    <div class="row">
+        @*Listed Vehicles*@
+        <div class="dashboard-div" id="listedVehicles">
+            <div class="col-12 page-title">
+                <span class="display-4">Listed Vehicles</span>
+            </div>
+            <br />
+            @if (Model.ListedVehicles.Any())
+            {
+                <div class="row">
+                    @foreach (var vehicle in Model.ListedVehicles)
+                    {
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 vehicle-div-2" id="@vehicle.ListedVehicleId">
+                            @if (vehicle.Images.Count > 0)
+                            {
+                                var base64 = Convert.ToBase64String(vehicle.Images.First().ImageBytes!);
+                                var imgSrc = string.Format($"data:image/png;base64,{base64}");
+                                <img src="@imgSrc" width="100%" />
+                            }
+                            <div class="dashboard-viehicle-body">
+                                <div class="dashboard-viehicle-title">
+                                    <h5 class="card-title">@vehicle.Year @vehicle.Vehicle.Maker.MakerName, @vehicle.Vehicle.VehicleName</h5>
+                                    <p class="card-text">CA$.&nbsp;<strong>@string.Format("{0:##,###,###}", vehicle.Price)</strong></p>
+                                    <button class="delete-button" onclick="deleteVehicle(this)" data-target="@vehicle.ListedVehicleId">
+                                        <i class="fa-regular fa-trash-can fa-lg btn-close-white"></i>
+                                    </button>
+                                </div>
+                                <div class="dashboard-viehicle-contet">
+                                    <span>Mileage: <strong>@string.Format("{0:##,###,###}",vehicle.Mileage)/Kms</strong></span><br />
+                                    <span>Transmission:<strong> @vehicle.Transmission</strong></span><br />
+                                    <span>Drive Train: <strong>@vehicle.DriveTrain</strong></span><br />
+                                    <span>Color: <strong>@vehicle.Color</strong></span><br />
+                                    <a asp-controller="User" asp-action="VehicleDetails"
+                               asp-route-listedVehicleId="@vehicle.ListedVehicleId">
+                                        <button class="normal-button dashboard-button">
+                                            Edit
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <p><a>Register Your First Vehicle!</a></p>
+            }
+        </div>
+        @*Sold Listed Vehicles*@
+        <div class="dashboard-div" id="soldListedVehicles">
+            <div class="col-12 page-title">
+                <span class="display-4">Sold Listed Vehicles</span>
+            </div>
+            @if (Model.SoldListedVehicles.Any())
+            {
+                <div class="row" id="soldListedVehiclesCollection">
+                    @foreach (var listedVehicleSold in Model.SoldListedVehicles)
+                    {
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 vehicle-div-2">
+                            @if (listedVehicleSold.ListedVehicle.Images.Any())
+                            {
+                                var base64 = Convert.ToBase64String(listedVehicleSold.ListedVehicle.Images.FirstOrDefault().ImageBytes);
+                                var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+                                <img src="@imgsrc" width="100%" />
+                            }
+                            <div class="dashboard-viehicle-body">
+                                <div class="dashboard-viehicle-title">
+                                    <h5 class="card-title">
+                                        @listedVehicleSold.ListedVehicle.Year
+                                        @listedVehicleSold.ListedVehicle.Vehicle.Maker.MakerName,
+                                        @listedVehicleSold.ListedVehicle.Vehicle.VehicleName
+                                    </h5>
+                                    <p class="card-text">
+                                        CA$.&nbsp;<strong>@string.Format("{0:##,###,###}", listedVehicleSold.ListedVehicle.Price)</strong>
+                                    </p>
+                                </div>
+                                <div class="dashboard-viehicle-contet">
+                                    <span>Mileage: <strong>@string.Format("{0:##,###,###}",listedVehicleSold.ListedVehicle.Mileage)/Kms</strong></span><br />
+                                    <span>Transmission:<strong> @listedVehicleSold.ListedVehicle.Transmission</strong></span><br />
+                                    <span>Drive Train: <strong>@listedVehicleSold.ListedVehicle.DriveTrain</strong></span><br />
+                                    <span>Color: <strong>@listedVehicleSold.ListedVehicle.Color</strong></span><br />
+                                    <a asp-action="SoldVehicleDetails" asp-route-listedVehicleId="@listedVehicleSold.ListedVehicle.ListedVehicleId" target="_blank">
+                                        <button class="normal-button dashboard-button">
+                                            Details
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+        @*Received Intents*@
+        <div class="col-12 dashboard-div" id="receivedIntents">
+
+            <div class="col-12 page-title">
+                <span class="display-4">Intents received</span>
+            </div>
+            <div class="container-fluid">
+                <table class="display autoSeller-table" id="receivedTableData" style="width: 100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="10" width="50px">Read?</th>
+                            <th data-priority="2" >Year</th>
+                            <th data-priority="10">Maker</th>
+                            <th data-priority="0">Model</th>
+                            <th data-priority="1">Price</th>
+                            <th data-priority="9">Last Name</th>
+                            <th data-priority="8">First Name</th>
+                            <th data-priority="7">Phone number</th>
+                            <th data-priority="6">Email</th>
+                            <th data-priority="5">Sell</th>
+                            <th data-priority="4">Delete</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        @*Intents Made*@
+        <div class="col-12 dashboard-div" id="intentsMade">
+            <div class="col-12 page-title">
+                <span class="display-4">Sent intents</span>
+            </div>
+            <div class="container-fluid">
+                <table class="display autoSeller-table" id="sentTableData" style="width: 100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="3">Year</th>
+                            <th data-priority="4">Maker</th>
+                            <th data-priority="5">Model</th>
+                            <th data-priority="6">Price</th>
+                            <th data-priority="7">Mileage</th>
+                            <th data-priority="8"">Transmission</th>
+                            <th data-priority="9">Drive Train</th>
+                            <th data-priority="10">Color</th>
+                            <th data-priority="0">Delete</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    @*From: /User/Dashboard:Get :: /Login/LoginAsync:Post*@
+    @if (TempData["Login"] is not null && (bool)TempData["Login"])
+    {
+<script type="text/javascript">
+    loginSwal('@TempData["Type"]','@TempData["Message"]');
+</script>
+    }
+    
+    @if (TempData["Swal"] is not null && (bool)TempData["Swal"]){
+        <script type="text/javascript">
+            sweetAlert('@TempData["Type"]','@TempData["Title"]','@TempData["Message"]');
+        </script>
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jg1GBT+7vilmmkaXEC0opihNCtRuGFCq6UvGw5guESuQEefF2QIFJuThSZIjQQBoqJNhHiCiMYfYhjQ6rOlVaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Paulyglot\\Desktop\\Portoflio\\AutoSeller\\AutoSellerClient\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Paulyglot\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Paulyglot\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

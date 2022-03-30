@@ -1,0 +1,259 @@
+﻿@inject IHttpContextAccessor _http
+<div class="menu-icon">
+    <i class="fas fa-bars header__menu"></i>
+</div>
+
+<div class="sidenav">
+    @if (_http.HttpContext.Request.Cookies.ContainsKey(JwtBearerDefaults.AuthenticationScheme) && User.Identity.IsAuthenticated)
+    {
+        @*Profile*@
+        <a asp-controller="User" asp-action="Profile" class="text-decoration-none">
+            <li class="sidenav__list-item user-welcome">
+                <span class="ms-2">
+                    <br />
+                    @_http.HttpContext.User.FindFirst(ClaimTypes.GivenName)?.Value[0].ToString().ToUpper()
+                    .
+                    @_http.HttpContext.User.FindFirst(ClaimTypes.Surname)?.Value
+                    <br />
+                    @if (_http.HttpContext.User.FindFirst(ClaimTypes.Authentication).Value == "false")
+                    {
+                        <span class="ms-2 text-white">
+                            We recommend you set a Password, for
+                        </span>
+                    }
+                </span>
+            </li>
+        </a>
+    }
+    <div class="sidenav__close-icon">
+        <i class="fas fa-times sidenav__brand-close"></i>
+    </div>
+    <ul class="sidenav__list">
+        @*Home*@
+        <a asp-controller="Home" asp-action="Index" class="text-decoration-none" onclick="checkLoginState();">
+        <li class="sidenav__list-item" id="Index">
+            <i class="icon fa-solid fa-house-chimney"></i>
+            <span class="ms-2 text-white">Home</span>
+        </li>
+        </a>
+        @if (_http.HttpContext.Request.Cookies.ContainsKey(JwtBearerDefaults.AuthenticationScheme) && User.Identity.IsAuthenticated)
+        {
+            @*Profile*@
+            <a asp-controller="User" asp-action="Profile" class="text-decoration-none">
+            <li class="sidenav__list-item" id="Profile">
+                <i class="icon fa-regular fa-user"></i>
+                <span class="ms-2 text-white">Profile</span>
+            </li>
+            </a>
+            @*Dashboard*@
+            <a asp-controller="User" asp-action="Dashboard" class="text-decoration-none">
+            <li class="sidenav__list-item" id="Dashboard">
+                <i class="icon fa-solid fa-chart-line"></i>
+                <span class="ms-2 text-white">Dashboard</span>
+            </li>
+            </a>
+            @*List a vehicle*@
+            <a asp-controller="User" asp-action="RegisterAVehicle" class="text-decoration-none">
+            <li class="sidenav__list-item " id="RegisterVehicle">
+                <i class="icon fa-solid fa-car-rear"></i>
+                <span class="ms-2 text-white">Register Vehicle</span>
+            </li>
+            </a>
+            @*Log out*@
+            <a asp-controller="Login" asp-action="Logout" class="text-decoration-none">
+            <li class="sidenav__list-item" id="Logout">
+                <i class="icon fa-solid fa-lock"></i>
+                <span class="ms-2 text-white">Log out</span>
+            </li>
+            </a>
+        }
+        else
+        {
+            @*Log in*@
+            <a asp-controller="Login" asp-action="Login" class="text-decoration-none">
+                <li class="sidenav__list-item" id="Login">
+                    <i class="icon fa-solid fa-lock-open"></i>
+                    <span class="ms-2 text-white">Login</span>
+                </li>
+            </a>
+            @*Quick Login*@
+            <li class="sidenav__list-item quick-login" id="quickLoginLink" type="button" data-bs-toggle="modal" 
+                data-bs-target="#quickLogin" style="display: none">
+                <i class="icon fa-regular fa-circle-question"></i>
+                <span class="ms-2 text-white">Quick Login</span>
+            </li>
+            @*Register*@
+            <a asp-controller="Register" asp-action="Register" class="text-decoration-none">
+            <li class="sidenav__list-item" id="Register">
+                <i class="icon fa-solid fa-passport"></i>
+                <span class="ms-2 text-white">Register</span>
+            </li>
+            </a>
+        }
+        @*Tutorial*@
+        <li class="sidenav__list-item tutorial" type="button" data-bs-toggle="modal" data-bs-target="#tutorial">
+            <i class="icon fa-regular fa-circle-question"></i>
+            <span class="ms-2 text-white">Tutorial</span>
+        </li>
+    </ul>
+    @*Developed By*@
+    <a href="https://github.com/PaulESanchezC">
+        <li class="sidenav__list-item signature">
+            <span class="ms-2 text-white">
+                Developed by: <br />
+                <i class="icon fa-brands fa-github"></i>
+                &nbsp;
+                Paul Sanchez.
+            </span>
+        </li>
+    </a>
+</div>
+
+@*Tutorial Modal*@
+<div class="modal fade" id="tutorial" tabindex="0" aria-labelledby="tutorialModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="options-page-title">
+                    <span class="display-4" id="tutorialModalTitle">Tutorial</span>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="col-12 p-2">
+                    <br />
+                    <h5 class="icon">What to do?</h5>
+                    <ul style="list-style: circle">
+                        <li class="p-2">
+                            You can browse through <a href="/#">vehicles</a> and filter results, on the <a href="/#">Homepage</a>
+                        </li>
+                        <li class="p-2">
+                            If you find a vehicle you would hypothetically like to buy, contact the user the listed such vehicle,
+                            the person will receive an email notification, with your contact information, <a href="/Register/Register">Registration </a>
+                            is required
+                        </li>
+                        <li class="p-2">
+                            To <a href="/Register/Register">Register</a>, this application demands email confirmation.
+                            You can use Facebook as a <a href="/Register/Register">Register</a>/<a href="/Login/Login">Login</a>,
+                            validation and again, an email confirmation is demanded
+                            <br />
+                            <mark class="text-danger">
+                                *Note: since this application is not using a Domain Email, the account confirmation email
+                                will be marked as span and unsafe
+                            </mark>
+                        </li>
+                        <li class="p-2">
+                            <a href="/User/RegisterAVehicle">Selling your Vehicle</a>, access your account (<a href="/Login/Login">login</a>),
+                            fill the form, add some photos, click on Save. The Vehicle is now added to the website and can be found by others
+                        </li>
+                        <li class="p-2">
+                            <a href="/User/Profile">Profile</a>, you can edit some of your personal data here, change your password, or for the case of External Login Users,
+                            you can add a password to your account
+                        </li>
+                        <li class="p-2">
+                            <a href="/Register/SendEmailConfirmation">Resend Confirmation Email</a>: provide the account email, and another confirmation email one will be sent
+                            <br />
+                            <mark class="text-danger">*Note: since this application is not using a Domain Email, this email will be marked as span and unsafe</mark>
+                        </li>
+                        <li class="p-2">
+                            <a href="/Login/ForgotPassword">Forgot Password?</a>, an email will be sent to the account provided.
+                            <br />
+                            <mark class="text-danger">
+                                *Note: If you choose an external authentication provider such as facebook,
+                                you won't be allowed to reset your password, you would have to access your account (<a href="/Login/Login">login</a>),
+                                go to <a href="/User/Profile">Profile</a>, and set your password
+                            </mark>
+                        </li>
+                        <li class="p-2">
+                            <a href="/User/Dashboard">The Dashboard</a>, here you will find all your listed vehicles,your sold vehicles,
+                            as well as, the list of buyers interested in your vehicles and the list of vehicles you have been interested in.
+                            <br />
+                            The intents received or sent can be deleted, i which case the intent will disappear for both the sender and receiver,
+                            <br />
+                            The intents received or sent can be marked Read/Unread
+                        </li>
+                        <li class="p-2">
+                            To inform the Application that you have sold your vehicle, go to your <a href="/User/Dashboard">Dashboard</a>, in the intents received tab, 
+                            choose the intent, and click the Sold! button.
+                            <br />
+                            <mark class="text-danger">
+                                *Note: This will delete all other intents made for this vehicle, and move your Vehicle from being "Listed" to "Sold!"
+                            </mark>
+                        </li>
+                        <li class="p-2 text-bright-highlighter">
+                            This tutorial demo, has 3 accounts with loaded data, these accounts have no rights to operations that may change their actual state,
+                            or the state of the data within them. <br/>
+                            The rights these tutorial accounts have are:
+                            <ul>
+                                <li>Send intents of purchase  to a listed vehicle</li>
+                                <li>Mark their intents of purchase received to Read / Unread </li>
+                                <li>Receive any intent of purchase from any other application user</li>
+                            </ul>
+                            <br />
+                            <mark class="text-danger">New Users that register to AutoSeller will have all the rights and benefits the application offers.</mark>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="swal-cancel-button" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*Quick Login*@
+<div class="modal fade" id="quickLogin" tabindex="0" aria-labelledby="quickLoginodalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="options-page-title">
+                    <span class="display-4" id="quickLoginModalTitle">Quick Login</span>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="col-12 p-2">
+                    <br />
+                    <span><h5 class="icon">Unmodifiable Accounts</h5> Created to demonstrate the functionalities of this web application.</span>
+                    <br />
+                    <ul style="list-style: circle">
+                        <li class="p-2">
+                            <span class="text-dark-highlighter">Email:</span><span class="text-bright-highlighter"> User1@Tutorial.com</span><br/>
+                            <span class="text-dark-highlighter">Password:</span><span class="text-bright-highlighter"> user</span><br/>
+                            <span class="text-dark-highlighter">Listed Vehicles: 14 <br/></span>
+                            <span class="text-dark-highlighter">Sold Vehicles: 2 <br/></span>
+                            <span class="text-dark-highlighter">Intents Sent: 0 <br/></span>
+                        </li>
+                        <li class="p-2">
+                            <span class="text-dark-highlighter">Email:</span><span class="text-bright-highlighter"> User2@Tutorial.com</span><br/>
+                            <span class="text-dark-highlighter">Password:</span><span class="text-bright-highlighter"> user</span><br/>
+                            <span class="text-dark-highlighter">Listed Vehicles: 3 <br/></span>
+                            <span class="text-dark-highlighter">Sold Vehicles: 0 <br/></span>
+                            <span class="text-dark-highlighter">Intents Sent: 6 <br/></span>
+                        </li>
+                        <li class="p-2">
+                            <span class="text-dark-highlighter">Email:</span><span class="text-bright-highlighter"> User3@Tutorial.com</span><br/>
+                            <span class="text-dark-highlighter">Password:</span><span class="text-bright-highlighter"> user</span><br/>
+                            <span class="text-dark-highlighter">Listed Vehicles: 0 <br/></span>
+                            <span class="text-dark-highlighter">Sold Vehicles: 0 <br/></span>
+                            <span class="text-dark-highlighter">Intents Sent: 10 <br/></span>
+                        </li>
+                        <li class="p-2">
+                            <mark class="text-danger">These accounts have limited rights, <br/>
+                            for more information check the Tutorial information on the side navigation menu</mark>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="swal-cancel-button" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
